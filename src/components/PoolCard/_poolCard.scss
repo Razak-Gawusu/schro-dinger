@@ -1,0 +1,62 @@
+@import '../../sass//variables';
+@import '../../sass//basis';
+
+.poolCard{
+    width: 30rem;
+    padding: 2.4rem;
+    background-color: $primaryDeepBlue;
+
+    &__item{
+        
+        .profile{
+            width: 4.8rem;
+            height: 4.8rem;
+            border-radius: 50%;
+            background-color: $secondarywhite;
+        }
+
+        .profile__info{
+            margin-left: 1rem;
+            h3{
+                font-size: 1.6rem;
+                color: #FFFFFF;
+            }
+
+            p{
+                font-size: 1.2rem;
+                color: $primaryYellow;
+            }
+        }
+
+        .btn{
+            @include flexBox(row, space-between, center, .6rem);
+            border: none;
+            background-color: $secondaryGreen;
+            color: #000000;
+            padding: .7rem 1.4rem;
+            border-radius: 5rem;
+            margin: 0 0 0 auto;
+        }
+
+        .item{
+            h4{
+                font-size: 1.4rem;
+            }
+
+            h2{
+                font-size: 1.9rem;
+                color: $primaryYellow;
+            }
+        }
+    }
+
+    &__item:first-child{
+        @include flexBox(row, flex-start, center);
+    }
+
+    &__item:nth-child(2){
+        @include flexBox(row, space-between, center);
+        margin: 1.9rem 0;
+    }
+
+}

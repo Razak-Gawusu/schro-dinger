@@ -1,0 +1,115 @@
+@import 'config';
+
+@include media-sm{
+    .home{
+        .featured__pool{
+            .container{
+                .featured__pool--item.text{
+                    
+                    .secondary{
+                        text-align: center;
+
+                        &__item{
+                            padding: 3.5rem 0;
+                            .sale__info{
+                                &--item{
+                                    @include flexBox(column, center, center);
+                                    padding: 1rem 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-md{
+    .home{
+        .featured__pool{
+            .container{
+                .featured__pool--item.text{
+                    .primary{
+                        @include flexBox(row, center, center, 2.7rem);
+                    }
+                    .secondary{
+                        text-align: center;
+
+                        &__item{
+                            padding: 3.5rem 0;
+                            .sale__info{
+                                @include flexBox(row, center, center, 5rem);
+                                &--item{
+                                    @include flexBox(column, flex-start, flex-start);
+                                    padding: 1rem 0
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .featured__pool--item.image{
+                    
+                    text-align: center;
+                }
+            }
+        }
+
+        .upcomingPools{
+            .title{
+                text-align: left;
+            }
+            &__item{
+                grid-template-columns: repeat(2, 1fr);
+                justify-items: stretch;
+            }
+        }
+    }
+}
+
+@include media-lg{
+    .home{
+        .featured__pool{
+            .container{
+                @include flexBox(row, space-between, flex-end);
+                .featured__pool--item.text{
+                    .primary{
+                        @include flexBox(row, flex-start, center, 2.7rem);
+                    }
+                    .secondary{
+                        text-align: left;
+                        @include flexBox(row, flex-start, center, 3.6rem);
+
+                        &__item{
+                            .sale__info{
+                                @include flexBox(row, flex-start, center, 5.5rem);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .upcomingPools{
+            .title{
+                text-align: left;
+            }
+            &__item{
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+    }
+}
+
+@include media-xlg{
+    .home{
+        .upcomingPools{
+            .title{
+                text-align: left;
+            }
+            &__item{
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+    }
+}

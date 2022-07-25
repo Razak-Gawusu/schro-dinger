@@ -1,0 +1,82 @@
+@import '../../sass/variables';
+
+.home{
+    .featured__pool{
+        background-color: $primaryDeepBlue;
+        padding: 5rem 0;
+        .container{
+            .featured__pool--item.text{
+                .primary{
+                    @include flexBox(row, flex-start, center, 2.7rem);
+                    padding-bottom: 5rem;
+
+                    .link{
+                        background-color: $primaryYellow;
+                        font-size: 1.3rem;
+                        padding: 1rem 1.53rem;
+                        max-width: 15rem;
+                        border-radius: .5rem;
+                        @include flexBox(row, center, center, .7rem);
+                        color: #000000;
+                        &:hover{
+                            background-color: $secondaryDeepYellow;
+                        }
+
+                        img{
+                            background-color: #FFF08B;
+                            padding: .4rem;
+                            border-radius: .4rem;
+                        }
+                    }
+                }
+
+                .secondary{
+                    img{
+                        //display: ;
+                    }
+
+                    &__item{
+                        .title, .paragraph{
+                            padding: .5rem 0;
+                        }
+                        .sale__info{
+                            &--item{
+                                div{
+                                    color: #FFFFFF;
+                                    font-size: 1.9rem;
+                                }
+
+                                div:first-child{
+                                    @include flexBox(row, flex-start, center, 1rem)
+                                }
+
+                                div:last-child{
+                                    font-size: 1.7rem;
+                                    color: $primaryYellow;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .featured__pool--item.image{
+                display: block;
+            }
+        }
+            
+    }
+
+    .upcomingPools{
+        padding: 5rem;
+        .title{
+            padding-bottom: 3rem;
+            text-align: center;
+        }
+        &__item{
+            display: grid;
+            gap: 3rem;
+            justify-items: center;
+        }
+    }
+}
