@@ -281,7 +281,7 @@ body {
   display: block;
 }
 .home .upcomingPools {
-  padding: 5rem;
+  padding: 5rem 0;
 }
 .home .upcomingPools .title {
   padding-bottom: 3rem;
