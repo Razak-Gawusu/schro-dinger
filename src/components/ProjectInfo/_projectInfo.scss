@@ -1,0 +1,45 @@
+@import '../../sass/variables';
+@import '../../sass/basis';
+
+.projectInfo{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+    border-bottom: solid .5px $borderLight;
+
+    &__item:first-child{
+        @include flexBox(row, flex-start, center);
+    }
+    &__item{
+        font-size: 1.9rem;
+        color: #FFFFFF;
+        padding: 2rem 0;
+        .profile{
+            width: 4.1rem;
+            height: 4.1rem;
+            border-radius: 50%;
+            background-color: $secondarywhite;
+        }
+
+        .profile__info{
+            margin-left: 1rem;
+            h3{
+                font-size: 1.6rem;
+                color: #FFFFFF;
+            }
+
+            p{
+                font-size: 1.2rem;
+                color: $primaryYellow;
+                font-style: italic;
+            }
+        }
+    }
+
+    .projectInfo__item.status{
+        @include flexBox(row, flex-start, center, 1rem);
+        color: $secondaryGreen;
+        font-weight: normal;
+    }
+}

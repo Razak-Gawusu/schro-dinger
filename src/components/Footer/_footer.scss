@@ -2,6 +2,9 @@
 @import '../../sass/variables';
 
 #footer{
+    font-family: 'Brandon-Grotesque';
+    font-weight: normal;
+    font-style: normal;
     .container{
         @include flexBox(row, space-between, center);   
         padding: 3.5rem 0;

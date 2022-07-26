@@ -1,3 +1,5 @@
+@import '../fonts/ProximaSoft/stylesheet.css';
+@import '../fonts/Brandon-Grotesque/stylesheet.css';
 @import 'variables';
 
 body{
@@ -5,19 +7,25 @@ body{
 }
 
 .container{
-    width: 90%;
-    max-width: 1440px;
+    width: 95%;
+    max-width: 1600px;
     margin: auto;
 }
 
 .title{
-    font-size: 3rem;
+    font-size: 2.75rem;
     color: #FFFFFF;
+    font-family: 'Brandon-Grotesque';
+    font-weight: black;
+    font-style: normal;
 }
 
 .paragraph{
     color: $primaryYellow;
     font-size: 2rem;
+    font-family: 'Brandon-Grotesque';
+    font-weight: normal;
+    font-style: normal;
 }
 
 @mixin flexBox($direction: row, $justify:flex-start, $align:flex-start, $gap:0) {

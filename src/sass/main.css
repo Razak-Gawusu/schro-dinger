@@ -1,3 +1,15 @@
+@import '../fonts/ProximaSoft/stylesheet.css';
+@import '../fonts/Brandon-Grotesque/stylesheet.css';
+@import '../fonts/ProximaSoft/stylesheet.css';
+@import '../fonts/Brandon-Grotesque/stylesheet.css';
+@import '../fonts/ProximaSoft/stylesheet.css';
+@import '../fonts/Brandon-Grotesque/stylesheet.css';
+@import '../fonts/ProximaSoft/stylesheet.css';
+@import '../fonts/Brandon-Grotesque/stylesheet.css';
+@import '../fonts/ProximaSoft/stylesheet.css';
+@import '../fonts/Brandon-Grotesque/stylesheet.css';
+@import '../fonts/ProximaSoft/stylesheet.css';
+@import '../fonts/Brandon-Grotesque/stylesheet.css';
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -34,19 +46,25 @@ body {
 }
 
 .container {
-  width: 90%;
-  max-width: 1440px;
+  width: 95%;
+  max-width: 1600px;
   margin: auto;
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2.75rem;
   color: #FFFFFF;
+  font-family: "Brandon-Grotesque";
+  font-weight: black;
+  font-style: normal;
 }
 
 .paragraph {
   color: #FFDE00;
   font-size: 2rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
@@ -54,19 +72,25 @@ body {
 }
 
 .container {
-  width: 90%;
-  max-width: 1440px;
+  width: 95%;
+  max-width: 1600px;
   margin: auto;
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2.75rem;
   color: #FFFFFF;
+  font-family: "Brandon-Grotesque";
+  font-weight: black;
+  font-style: normal;
 }
 
 .paragraph {
   color: #FFDE00;
   font-size: 2rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
 }
 
 #header .container {
@@ -83,6 +107,13 @@ body {
   padding: 0.35em 0.75em;
   border: solid 0.1rem #FFDE00;
   border-radius: 0.5rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+#header .container .header__link:hover {
+  background-color: #FFDE00;
+  color: #00008C;
 }
 
 body {
@@ -90,21 +121,32 @@ body {
 }
 
 .container {
-  width: 90%;
-  max-width: 1440px;
+  width: 95%;
+  max-width: 1600px;
   margin: auto;
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2.75rem;
   color: #FFFFFF;
+  font-family: "Brandon-Grotesque";
+  font-weight: black;
+  font-style: normal;
 }
 
 .paragraph {
   color: #FFDE00;
   font-size: 2rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
 }
 
+#footer {
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
 #footer .container {
   display: flex;
   flex-direction: row;
@@ -153,25 +195,34 @@ body {
 }
 
 .container {
-  width: 90%;
-  max-width: 1440px;
+  width: 95%;
+  max-width: 1600px;
   margin: auto;
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2.75rem;
   color: #FFFFFF;
+  font-family: "Brandon-Grotesque";
+  font-weight: black;
+  font-style: normal;
 }
 
 .paragraph {
   color: #FFDE00;
   font-size: 2rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
 }
 
 .poolCard {
   width: 30rem;
   padding: 2.4rem;
   background-color: #00008C;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
 }
 .poolCard__item .profile {
   width: 4.8rem;
@@ -189,6 +240,7 @@ body {
 .poolCard__item .profile__info p {
   font-size: 1.2rem;
   color: #FFDE00;
+  font-style: italic;
 }
 .poolCard__item .btn {
   display: flex;
@@ -202,9 +254,14 @@ body {
   padding: 0.7rem 1.4rem;
   border-radius: 5rem;
   margin: 0 0 0 auto;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
 }
 .poolCard__item .item h4 {
   font-size: 1.4rem;
+  color: #FFFFFF;
+  font-weight: normal;
 }
 .poolCard__item .item h2 {
   font-size: 1.9rem;
@@ -221,9 +278,134 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   gap: 0;
   margin: 1.9rem 0;
+}
+
+body {
+  background-color: #0616B6;
+}
+
+.container {
+  width: 95%;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.title {
+  font-size: 2.75rem;
+  color: #FFFFFF;
+  font-family: "Brandon-Grotesque";
+  font-weight: black;
+  font-style: normal;
+}
+
+.paragraph {
+  color: #FFDE00;
+  font-size: 2rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+
+.projectInfo {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  align-items: center;
+  border-bottom: solid 0.5px #FFFFFF;
+}
+.projectInfo__item:first-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0;
+}
+.projectInfo__item {
+  font-size: 1.9rem;
+  color: #FFFFFF;
+  padding: 2rem 0;
+}
+.projectInfo__item .profile {
+  width: 4.1rem;
+  height: 4.1rem;
+  border-radius: 50%;
+  background-color: #EDEDED;
+}
+.projectInfo__item .profile__info {
+  margin-left: 1rem;
+}
+.projectInfo__item .profile__info h3 {
+  font-size: 1.6rem;
+  color: #FFFFFF;
+}
+.projectInfo__item .profile__info p {
+  font-size: 1.2rem;
+  color: #FFDE00;
+  font-style: italic;
+}
+.projectInfo .projectInfo__item.status {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  color: #3AFF00;
+  font-weight: normal;
+}
+
+.search__form .form--group {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0;
+}
+.search__form .form--group .btn {
+  height: 6.4rem;
+  min-width: 10rem;
+  flex-grow: 1;
+  background-color: transparent;
+  border: solid 0.05rem #EDEDED;
+}
+.search__form .form--group .searchInput {
+  height: 6.4rem;
+  flex-grow: 15;
+  background-color: transparent;
+  border: solid 0.1rem #EDEDED;
+  padding: 0 4rem;
+  font-size: 2rem;
+  color: #FFFFFF;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+
+::-moz-placeholder {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.7450980392);
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+
+:-ms-input-placeholder {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.7450980392);
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+
+::placeholder {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.7450980392);
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
 }
 
 .home .featured__pool {
@@ -239,10 +421,12 @@ body {
   padding-bottom: 5rem;
 }
 .home .featured__pool .container .featured__pool--item.text .primary .link {
+  font-family: "Proxima Soft";
+  font-weight: bold;
+  font-style: normal;
   background-color: #FFDE00;
-  font-size: 1.3rem;
+  font-size: 1.125rem;
   padding: 1rem 1.53rem;
-  max-width: 15rem;
   border-radius: 0.5rem;
   display: flex;
   flex-direction: row;
@@ -262,6 +446,9 @@ body {
 .home .featured__pool .container .featured__pool--item.text .secondary__item .title, .home .featured__pool .container .featured__pool--item.text .secondary__item .paragraph {
   padding: 0.5rem 0;
 }
+.home .featured__pool .container .featured__pool--item.text .secondary__item .title {
+  font-weight: bold;
+}
 .home .featured__pool .container .featured__pool--item.text .secondary__item .sale__info--item div {
   color: #FFFFFF;
   font-size: 1.9rem;
@@ -272,10 +459,16 @@ body {
   justify-content: flex-start;
   align-items: center;
   gap: 1rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: bold;
+  font-style: normal;
 }
 .home .featured__pool .container .featured__pool--item.text .secondary__item .sale__info--item div:last-child {
   font-size: 1.7rem;
   color: #FFDE00;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
 }
 .home .featured__pool .container .featured__pool--item.image {
   display: block;
@@ -286,11 +479,34 @@ body {
 .home .upcomingPools .title {
   padding-bottom: 3rem;
   text-align: center;
+  text-transform: uppercase;
 }
 .home .upcomingPools__item {
   display: grid;
   gap: 3rem;
   justify-items: center;
+}
+.home .projects {
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  margin-bottom: 8.7rem;
+  overflow-x: scroll;
+}
+.home .projects__item {
+  min-width: 80rem;
+  padding: 3.2rem 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+}
+.home .projects__item h5 {
+  color: #FFFFFF;
+  font-size: 1.6rem;
+}
+.home .projects__info {
+  background-color: #00008C;
+  min-width: 80rem;
 }
 
 @media screen and (max-width: 650px) {
@@ -307,6 +523,9 @@ body {
     align-items: center;
     gap: 0;
     padding: 1rem 0;
+  }
+  .poolCard {
+    width: 100%;
   }
 }
 @media screen and (min-width: 651px) {
@@ -346,7 +565,6 @@ body {
   }
   .home .upcomingPools__item {
     grid-template-columns: repeat(2, 1fr);
-    justify-items: stretch;
   }
 }
 @media screen and (min-width: 1080px) {

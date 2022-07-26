@@ -1,6 +1,15 @@
-export const projects = [
+export const projectsData = [
     {
         name: 'Wen Moon',
+        hashTag:'#WM',
+        price: .4,
+        participants: 1150,
+        amountRaised: 300000,
+        started: false,
+    },
+    {
+        name: 'John Moon',
+        hashTag:'#WM',
         price: .4,
         participants: 1150,
         amountRaised: 300000,
@@ -8,6 +17,7 @@ export const projects = [
     },
     {
         name: 'Wen Moon',
+        hashTag:'#WM',
         price: .4,
         participants: 1150,
         amountRaised: 300000,
@@ -15,6 +25,7 @@ export const projects = [
     },
     {
         name: 'Wen Moon',
+        hashTag:'#WM',
         price: .4,
         participants: 1150,
         amountRaised: 300000,
@@ -22,6 +33,7 @@ export const projects = [
     },
     {
         name: 'Wen Moon',
+        hashTag:'#WM',
         price: .4,
         participants: 1150,
         amountRaised: 300000,
@@ -29,6 +41,7 @@ export const projects = [
     },
     {
         name: 'Wen Moon',
+        hashTag:'#WM',
         price: .4,
         participants: 1150,
         amountRaised: 300000,
@@ -36,6 +49,7 @@ export const projects = [
     },
     {
         name: 'Wen Moon',
+        hashTag:'#WM',
         price: .4,
         participants: 1150,
         amountRaised: 300000,
@@ -43,6 +57,7 @@ export const projects = [
     },
     {
         name: 'Wen Moon',
+        hashTag:'#WM',
         price: .4,
         participants: 1150,
         amountRaised: 300000,
@@ -50,6 +65,7 @@ export const projects = [
     },
     {
         name: 'Wen Moon',
+        hashTag:'#WM',
         price: .4,
         participants: 1150,
         amountRaised: 300000,
@@ -57,6 +73,7 @@ export const projects = [
     },
     {
         name: 'Wen Moon',
+        hashTag:'#WM',
         price: .4,
         participants: 1150,
         amountRaised: 300000,
@@ -64,13 +81,7 @@ export const projects = [
     },
     {
         name: 'Wen Moon',
-        price: .4,
-        participants: 1150,
-        amountRaised: 300000,
-        started: true,
-    },
-    {
-        name: 'Wen Moon',
+        hashTag:'#WM',
         price: .4,
         participants: 1150,
         amountRaised: 300000,

@@ -1,6 +1,5 @@
 @import '../../sass/basis';
 @import '../../sass/variables';
-//@import '../../fonts/ProximaSoft/stylesheet.css';
 
 #header{
     .container{
@@ -13,6 +12,13 @@
             padding: .35em .75em;
             border: solid .1rem $borderYellow;
             border-radius: .5rem;
+            font-family: 'Brandon-Grotesque';
+            font-weight: normal;
+            font-style: normal;
+            &:hover{
+                background-color: $primaryYellow;
+                color: $primaryDeepBlue;
+            }
         }
     }
 }

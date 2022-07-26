@@ -19,15 +19,15 @@ function PoolCard(props) {
 
         <div className='poolCard__item'>
             <div className="item">
-                <h4 className='title'>Soft Cap</h4>
-                <h2>{props.softCap}</h2>
+                <h4>Soft Cap</h4>
+                <h2>{props.softCap} ETH</h2>
             </div>
             <div className="item">
-                <h4 className='title'>Hard Cap</h4>
-                <h2>{props.hardCap}</h2>
+                <h4>Hard Cap</h4>
+                <h2>{props.hardCap} ETH</h2>
             </div>
             <div className="item">
-                <h4 className='title'>Participants</h4>
+                <h4>Participants</h4>
                 <h2>{props.participants}</h2>
             </div>
         </div>

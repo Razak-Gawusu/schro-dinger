@@ -11,10 +11,12 @@
                     padding-bottom: 5rem;
 
                     .link{
+                        font-family: 'Proxima Soft';
+                        font-weight: bold;
+                        font-style: normal;
                         background-color: $primaryYellow;
-                        font-size: 1.3rem;
+                        font-size: 1.125rem;
                         padding: 1rem 1.53rem;
-                        max-width: 15rem;
                         border-radius: .5rem;
                         @include flexBox(row, center, center, .7rem);
                         color: #000000;
@@ -31,28 +33,35 @@
                 }
 
                 .secondary{
-                    img{
-                        //display: ;
-                    }
-
                     &__item{
                         .title, .paragraph{
                             padding: .5rem 0;
                         }
+
+                        .title{
+                            font-weight: bold;
+                        }
                         .sale__info{
                             &--item{
+
                                 div{
                                     color: #FFFFFF;
                                     font-size: 1.9rem;
                                 }
 
                                 div:first-child{
-                                    @include flexBox(row, flex-start, center, 1rem)
+                                    @include flexBox(row, flex-start, center, 1rem);
+                                    font-family: 'Brandon-Grotesque';
+                                    font-weight: bold;
+                                    font-style: normal;
                                 }
 
                                 div:last-child{
                                     font-size: 1.7rem;
                                     color: $primaryYellow;
+                                    font-family: 'Brandon-Grotesque';
+                                    font-weight: normal;
+                                    font-style: normal;
                                 }
                             }
                         }
@@ -72,11 +81,37 @@
         .title{
             padding-bottom: 3rem;
             text-align: center;
+            text-transform: uppercase;
         }
         &__item{
             display: grid;
             gap: 3rem;
             justify-items: center;
+        }
+    }
+
+    .projects{
+        font-family: 'Brandon-Grotesque';
+        font-weight: normal;
+        font-style: normal;
+        margin-bottom: 8.7rem;
+        overflow-x: scroll;
+        &__item{
+            min-width: 80rem;
+            padding: 3.2rem 0;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            justify-items: center;
+
+            h5{
+                color: #FFFFFF;
+                font-size: 1.6rem;
+            }
+        }
+
+        &__info{
+            background-color: $primaryDeepBlue;
+            min-width: 80rem;
         }
     }
 }

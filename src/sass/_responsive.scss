@@ -23,6 +23,10 @@
             }
         }
     }
+
+    .poolCard{
+        width: 100%
+    }
 }
 
 @include media-md{
@@ -62,7 +66,7 @@
             }
             &__item{
                 grid-template-columns: repeat(2, 1fr);
-                justify-items: stretch;
+                // justify-items: center;
             }
         }
     }

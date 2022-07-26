@@ -1,0 +1,34 @@
+.search__form{
+    .form--group{
+        width: 100%;
+        @include flexBox(row, flex-start, center);
+        .btn{
+            height: 6.4rem;
+            min-width: 10rem;
+            flex-grow: 1;
+            background-color: transparent;
+            border: solid .05rem $secondarywhite;
+        }
+
+        .searchInput{
+            height: 6.4rem;
+            flex-grow: 15;
+            background-color: transparent;
+            border: solid .1rem $secondarywhite;
+            padding: 0 4rem;
+            font-size: 2rem;
+            color: #FFFFFF;
+            font-family: 'Brandon-Grotesque';
+            font-weight: normal;
+            font-style: normal;
+        }
+    }
+}
+
+::placeholder{
+    font-size: 2rem;
+    color: #ffffffbe;
+    font-family: 'Brandon-Grotesque';
+    font-weight: normal;
+    font-style: normal;
+}

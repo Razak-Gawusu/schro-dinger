@@ -1,11 +1,28 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
 import PoolCard from '../../components/PoolCard/PoolCard'
-import { poolData } from '../../Data/data'
+import { poolData, projectsData } from '../../Data/data'
 import {nanoid} from 'nanoid'
-import Projects from '../Projects'
+import SearchForm from '../../components/SearchForm/SearchForm'
+import ProjectInfo from '../../components/ProjectInfo/ProjectInfo'
 
 function Home() {
+    const [query, setQuery] = useState('')
+    const [filteredProjects, setFilteredProjects] = useState([])
+
+    const searchToken = (searchValue) => {
+        setQuery(searchValue)
+    
+        if(query){
+          const filteredProjects = projectsData.filter(data =>(
+              Object.values(data).join("").toLowerCase().includes(searchValue.toLowerCase())
+            )
+          )
+          setFilteredProjects(filteredProjects)
+        } else {
+          setFilteredProjects(projectsData)
+        }
+      }
   return (
     <div className='home'>
         <section className="featured__pool">
@@ -88,7 +105,39 @@ function Home() {
         </section>
 
         <section className="projects container">
-            <Projects />
+            <SearchForm query={query} searchToken={searchToken}/>
+
+            <article className='projects__item'>
+                <h5>Project Name</h5>
+                <h5>Sale Price</h5>
+                <h5>No of Participants</h5>
+                <h5>Amount Raised</h5>
+                <h5>Status</h5>
+            </article>
+
+            <article className='projects__info'>
+                {query.length > 0 ? filteredProjects.map((project) => (
+                    <ProjectInfo 
+                    key={nanoid()}
+                    name={project.name}
+                    hashTag={project.hashTag}
+                    price={project.price}
+                    participants={project.participants}
+                    amount={project.amountRaised}
+                    started={project.started}
+                />
+                )): projectsData.map((project) => (
+                    <ProjectInfo 
+                        key={nanoid()}
+                        name={project.name}
+                        hashTag={project.hashTag}
+                        price={project.price}
+                        participants={project.participants}
+                        amount={project.amountRaised}
+                        started={project.started}
+                    />
+                ))}
+            </article>
         </section>
     </div>
   )
