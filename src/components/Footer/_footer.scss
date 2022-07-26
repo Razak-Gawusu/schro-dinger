@@ -16,7 +16,7 @@
         }
 
         .footer__item.socials{
-            @include flexBox(row, flex-start, flex-start, 2.1rem);
+            @include flexBox(row, flex-start, flex-start, 1.5rem);
 
             .socials__image{
                 width: 2.7rem;

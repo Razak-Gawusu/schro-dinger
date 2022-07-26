@@ -27,6 +27,12 @@
     .poolCard{
         width: 100%
     }
+
+    #footer{
+        .container{
+            @include flexBox(column, center, center, 1.5rem)
+        }
+    }
 }
 
 @include media-md{

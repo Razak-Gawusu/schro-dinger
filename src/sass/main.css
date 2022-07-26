@@ -169,7 +169,7 @@ body {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 2.1rem;
+  gap: 1.5rem;
 }
 #footer .container .footer__item.socials .socials__image {
   width: 2.7rem;
@@ -715,6 +715,13 @@ body {
   }
   .poolCard {
     width: 100%;
+  }
+  #footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
   }
 }
 @media screen and (min-width: 651px) {
