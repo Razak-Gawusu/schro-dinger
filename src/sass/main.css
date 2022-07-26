@@ -835,6 +835,11 @@ body {
     max-height: 58.5rem;
     margin: 0 auto;
   }
+  .launchProject__item .link {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
   .launchProject__item--info {
     background-color: #000046;
     padding: 15rem 2rem;

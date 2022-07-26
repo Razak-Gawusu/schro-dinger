@@ -10,7 +10,12 @@
             max-height: 58.5rem;
             margin: 0 auto;
     
-            
+            .link{
+                position: absolute;
+                top: 2rem;
+                right: 2rem;
+            }
+
             &--info{
                 background-color: $secondaryVeryDeepBlue;
                 padding: 15rem 2rem;
