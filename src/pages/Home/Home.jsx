@@ -30,7 +30,7 @@ function Home() {
             <div className="featured__pool--item text">
                     <div className='primary'>
                         <h1 className='title'>FEATURED POOL</h1>
-                        <Link className='link ' to='/createNewPool'>   
+                        <Link className='link ' to='/LaunchProject'>   
                             <img 
                                 src={require('../../images/add-icon.png')} 
                                 alt="" 

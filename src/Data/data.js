@@ -5,7 +5,7 @@ export const projectsData = [
         price: .4,
         participants: 1150,
         amountRaised: 300000,
-        started: false,
+        started: true,
     },
     {
         name: 'John Moon',
