@@ -282,6 +282,35 @@ body {
   gap: 0;
   margin: 1.9rem 0;
 }
+.poolCard__item:last-child {
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+.poolCard__item:last-child h5 {
+  color: #FFFFFF;
+  font-size: 1.2rem;
+}
+.poolCard__item:last-child .bar__indicator {
+  height: 1rem;
+  background-color: #FFFFFF;
+  margin: 0.5rem 0;
+}
+.poolCard__item:last-child .bar__indicator span {
+  display: block;
+  height: 100%;
+  background-color: #CDB410;
+}
+.poolCard__item:last-child div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+  color: #FFF3A4;
+  font-style: medium;
+  font-size: 1rem;
+}
 
 body {
   background-color: #0616B6;
@@ -314,7 +343,7 @@ body {
   grid-template-columns: repeat(5, 1fr);
   justify-items: center;
   align-items: center;
-  border-bottom: solid 0.5px #FFFFFF;
+  border-bottom: solid 0.5px rgba(255, 255, 255, 0.3568627451);
 }
 .projectInfo__item:first-child {
   display: flex;

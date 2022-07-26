@@ -1,6 +1,9 @@
 import React from 'react'
 
 function PoolCard(props) {
+    const style = {
+        width: (props.amount / props.total) * 100 + '%'
+    }
   return (
     <div className='poolCard'>
         <div className='poolCard__item'>
@@ -33,6 +36,11 @@ function PoolCard(props) {
         </div>
         <div className='poolCard__item'>
             <h5>%Raised</h5>
+
+            <div className="bar__indicator">
+                <span style={style}></span>
+            </div>
+
             <div>
                 <kbd>75% full</kbd>
                 <div>{props.amount} / {props.total}</div>
