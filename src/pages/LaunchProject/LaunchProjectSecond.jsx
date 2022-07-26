@@ -30,24 +30,24 @@ function LaunchProjectSecond() {
 
                             
                             <div className='input--group'>
-                                <input type="text"  placeholder='Add website Url'/>
-                                <div className='input__image'><FaPlus className='icon'/></div>
+                                <input type="text" id='addwebsite'  placeholder='Add website Url'/>
+                                <label htmlFor='addwebsite' className='input__image'><FaPlus className='icon'/></label>
                             </div>
                             <div className='input--group'>
-                                <input type="text"  placeholder='Add Address'/>
-                                <div className='input__image'><FaPlus className='icon'/></div>
+                                <input type="text" id='addAddress' placeholder='Add Address'/>
+                                <label htmlFor='addAddress' className='input__image'><FaPlus className='icon'/></label>
                             </div>
                             <div className='input--group'>
-                                <input type="text"  placeholder='Add Telegram Link'/>
-                                <div className='input__image'><FaPlus className='icon'/></div>
+                                <input type="text" id='addTelegram' placeholder='Add Telegram Link'/>
+                                <label htmlFor='addTelegram' className='input__image'><FaPlus className='icon'/></label>
                             </div>
                             <div className='input--group'>
-                                <input type="text"  placeholder='Add Twitter Link'/>
-                                <div className='input__image'><FaPlus className='icon'/></div>
+                                <input type="text" id='addTwitter' placeholder='Add Twitter Link'/>
+                                <label htmlFor='addTwitter' className='input__image'><FaPlus className='icon'/></label>
                             </div>
                             <div className='input--group'>
-                                <input type="text"  placeholder='Add Discord Link'/>
-                                <div className='input__image'><FaPlus className='icon' /></div>
+                                <input type="text" id='addDiscord'  placeholder='Add Discord Link'/>
+                                <label htmlFor='addDiscord' className='input__image'><FaPlus className='icon' /></label>
                             </div>
                         </div>
                     </form>

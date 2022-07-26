@@ -67,6 +67,7 @@
                                 width: 1.5rem;
                                 @include flexBox(row, center, center);
                                 border-radius: 50%;
+                                cursor: pointer;
                                 .icon{
                                     font-size: .75rem;
                                     color: $primaryDeepBlue
