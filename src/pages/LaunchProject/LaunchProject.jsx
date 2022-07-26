@@ -49,7 +49,7 @@ function LaunchProject() {
                         <label><img src={require('../../images/skeletonHead.png')} alt="" /> Moon Token</label>
                     </div>
 
-                    <Link className='next' to='/'>Next <img src={require('../../images/arrow-round-forward.png')} alt="" /></Link>
+                    <Link to='/launchProjectSecond' className='form__link'>Next <img src={require('../../images/arrow-round-forward.png')} alt="" /></Link>
                 </form>
 
                 <img className='image' src={require('../../images/IMG_3576.png')} alt="" />

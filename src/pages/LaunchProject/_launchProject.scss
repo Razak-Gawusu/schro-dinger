@@ -39,28 +39,6 @@
 
         &--form{
             background-color: $secondaryBlue;
-            .progress__indicator--wrapper{
-                padding-bottom: 5rem;
-                small{
-                    font-size: 1.3rem;
-                    font-family: 'Brandon-Grotesque';
-                    font-weight: normal;
-                    font-style: normal;
-                    color: $primaryYellow;
-                }
-                .progress__indicator{
-                    max-width: 25rem;
-                    height: 1rem;
-                    background-color: #FFFFFF;
-                    margin: .5rem 0;
-        
-                    span{
-                        display: block;
-                        height: 100%;
-                        background-color: $secondaryVeryDeepBlue;
-                    }
-                }
-            }
 
             .form--group{
                 padding: 2rem 0;
@@ -100,22 +78,22 @@
                 }
             }
 
-            .next{
-                color: #000000;
-                @include flexBox(row, center, center, .5rem);
-                font-family: 'Brandon-Grotesque';
-                font-weight: normal;
-                font-style: normal;
-                font-size: 1.7rem;
-                background-color: $primaryYellow;
-                display: inline-block;
-                padding: .75rem 4rem;
-                border-radius: .4rem;
-                &:hover{
-                    background-color: $secondaryDeepYellow;
-                }
-                margin-top: 2rem;
-            }
+            // .next{
+            //     color: #000000;
+            //     @include flexBox(row, center, center, .5rem);
+            //     font-family: 'Brandon-Grotesque';
+            //     font-weight: normal;
+            //     font-style: normal;
+            //     font-size: 1.7rem;
+            //     background-color: $primaryYellow;
+            //     display: inline-block;
+            //     padding: .75rem 4rem;
+            //     border-radius: .4rem;
+            //     &:hover{
+            //         background-color: $secondaryDeepYellow;
+            //     }
+            //     margin-top: 2rem;
+            // }
         }
 
         .image{

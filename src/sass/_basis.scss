@@ -28,6 +28,51 @@ body{
     font-style: normal;
 }
 
+.form__link{
+    color: #000000;
+    border: none;
+    //@include flexBox(row, center, center, .5rem);
+    font-family: 'Brandon-Grotesque';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.7rem;
+    background-color: $primaryYellow;
+    display: inline-block;
+    padding: .75rem 4rem;
+    border-radius: .4rem;
+    &:hover{
+        background-color: $secondaryDeepYellow;
+    }
+}
+
+.progress__indicator--wrapper{
+    padding-bottom: 5rem;
+    small{
+        font-size: 1.3rem;
+        font-family: 'Brandon-Grotesque';
+        font-weight: normal;
+        font-style: normal;
+        color: $primaryYellow;
+    }
+    .progress__indicator{
+        border: solid .025rem $border;
+        max-width: 25rem;
+        height: 1rem;
+        background-color: #FFFFFF;
+        margin: .5rem 0;
+
+        span{
+            display: block;
+            height: 100%;
+            background-color: $secondaryVeryDeepBlue;
+        }
+    }
+}
+
+.plus{
+    color: #FFFFFF;
+}
+
 @mixin flexBox($direction: row, $justify:flex-start, $align:flex-start, $gap:0) {
     display: flex;
     flex-direction: $direction;

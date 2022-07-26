@@ -1,0 +1,115 @@
+@import 'config';
+@import 'variables';
+@import 'basis';
+
+
+@include media-sm {
+    .launchProjectSecond{
+        &__top{
+            .container{
+                .info{
+                    .progress__indicator--wrapper{
+                        @include flexBox(column, center, center);
+
+                        .progress__indicator{
+                            width: 100%
+                        }
+                    }
+                    form{
+                        @include flexBox(column, center, center, 3.6rem);
+                        text-align: center;
+                        padding: 0 4rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-md{
+    .launchProjectSecond{
+        &__top{
+            .container{
+                .info{
+                    .progress__indicator--wrapper{
+                        @include flexBox(column, center, center);
+
+                        .progress__indicator{
+                            width: 100%
+                        }
+                    }
+                    form{
+                        @include flexBox(column, center, center, 3.6rem);
+                        text-align: center;
+
+                        .form--group:nth-child(2){
+                            .title{
+                                text-align: left;
+                            }
+                            display: grid;
+                            grid-template-columns: repeat(2, 1fr);
+                            column-gap: 8rem;
+                        }
+                    }
+                }
+
+                .image{
+                    text-align: center;
+                }
+            }
+        }
+
+        &__bottom{
+            .container{
+                padding: 0;
+                .item{
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    column-gap: 4rem;
+                }
+            }
+        }
+    }
+}
+
+@include media-lg{
+    .launchProjectSecond{
+        &__top{
+            .container{
+                @include flexBox(row, space-between);
+                .info{
+                    width: 65%;
+                    .progress__indicator--wrapper{
+                        @include flexBox(column, center, flex-start);
+                    }
+                    form{
+                        @include flexBox(row, flex-start, center, 3.6rem);
+                    }
+                }
+
+                .image{
+                    align-self: flex-end;
+                    width: 30%;
+                }
+            }
+        }
+
+        &__bottom{
+            .container{
+                margin-top: 7.5rem;
+                @include flexBox(row, space-between, flex-start, 6.8rem);
+
+                .form--group.description{
+                    padding-top: 0;
+                    width: 50%;
+                }
+
+                .item{
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+
+

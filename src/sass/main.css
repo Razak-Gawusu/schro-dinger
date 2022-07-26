@@ -14,6 +14,10 @@
 @import '../fonts/Brandon-Grotesque/stylesheet.css';
 @import '../fonts/ProximaSoft/stylesheet.css';
 @import '../fonts/Brandon-Grotesque/stylesheet.css';
+@import '../fonts/ProximaSoft/stylesheet.css';
+@import '../fonts/Brandon-Grotesque/stylesheet.css';
+@import '../fonts/ProximaSoft/stylesheet.css';
+@import '../fonts/Brandon-Grotesque/stylesheet.css';
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -71,6 +75,49 @@ body {
   font-style: normal;
 }
 
+.form__link {
+  color: #000000;
+  border: none;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.7rem;
+  background-color: #FFDE00;
+  display: inline-block;
+  padding: 0.75rem 4rem;
+  border-radius: 0.4rem;
+}
+.form__link:hover {
+  background-color: #CDB410;
+}
+
+.progress__indicator--wrapper {
+  padding-bottom: 5rem;
+}
+.progress__indicator--wrapper small {
+  font-size: 1.3rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  color: #FFDE00;
+}
+.progress__indicator--wrapper .progress__indicator {
+  border: solid 0.025rem #3842C1;
+  max-width: 25rem;
+  height: 1rem;
+  background-color: #FFFFFF;
+  margin: 0.5rem 0;
+}
+.progress__indicator--wrapper .progress__indicator span {
+  display: block;
+  height: 100%;
+  background-color: #000046;
+}
+
+.plus {
+  color: #FFFFFF;
+}
+
 body {
   background-color: #0616B6;
 }
@@ -95,6 +142,49 @@ body {
   font-family: "Brandon-Grotesque";
   font-weight: normal;
   font-style: normal;
+}
+
+.form__link {
+  color: #000000;
+  border: none;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.7rem;
+  background-color: #FFDE00;
+  display: inline-block;
+  padding: 0.75rem 4rem;
+  border-radius: 0.4rem;
+}
+.form__link:hover {
+  background-color: #CDB410;
+}
+
+.progress__indicator--wrapper {
+  padding-bottom: 5rem;
+}
+.progress__indicator--wrapper small {
+  font-size: 1.3rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  color: #FFDE00;
+}
+.progress__indicator--wrapper .progress__indicator {
+  border: solid 0.025rem #3842C1;
+  max-width: 25rem;
+  height: 1rem;
+  background-color: #FFFFFF;
+  margin: 0.5rem 0;
+}
+.progress__indicator--wrapper .progress__indicator span {
+  display: block;
+  height: 100%;
+  background-color: #000046;
+}
+
+.plus {
+  color: #FFFFFF;
 }
 
 #header .container {
@@ -144,6 +234,49 @@ body {
   font-family: "Brandon-Grotesque";
   font-weight: normal;
   font-style: normal;
+}
+
+.form__link {
+  color: #000000;
+  border: none;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.7rem;
+  background-color: #FFDE00;
+  display: inline-block;
+  padding: 0.75rem 4rem;
+  border-radius: 0.4rem;
+}
+.form__link:hover {
+  background-color: #CDB410;
+}
+
+.progress__indicator--wrapper {
+  padding-bottom: 5rem;
+}
+.progress__indicator--wrapper small {
+  font-size: 1.3rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  color: #FFDE00;
+}
+.progress__indicator--wrapper .progress__indicator {
+  border: solid 0.025rem #3842C1;
+  max-width: 25rem;
+  height: 1rem;
+  background-color: #FFFFFF;
+  margin: 0.5rem 0;
+}
+.progress__indicator--wrapper .progress__indicator span {
+  display: block;
+  height: 100%;
+  background-color: #000046;
+}
+
+.plus {
+  color: #FFFFFF;
 }
 
 #footer {
@@ -218,6 +351,49 @@ body {
   font-family: "Brandon-Grotesque";
   font-weight: normal;
   font-style: normal;
+}
+
+.form__link {
+  color: #000000;
+  border: none;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.7rem;
+  background-color: #FFDE00;
+  display: inline-block;
+  padding: 0.75rem 4rem;
+  border-radius: 0.4rem;
+}
+.form__link:hover {
+  background-color: #CDB410;
+}
+
+.progress__indicator--wrapper {
+  padding-bottom: 5rem;
+}
+.progress__indicator--wrapper small {
+  font-size: 1.3rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  color: #FFDE00;
+}
+.progress__indicator--wrapper .progress__indicator {
+  border: solid 0.025rem #3842C1;
+  max-width: 25rem;
+  height: 1rem;
+  background-color: #FFFFFF;
+  margin: 0.5rem 0;
+}
+.progress__indicator--wrapper .progress__indicator span {
+  display: block;
+  height: 100%;
+  background-color: #000046;
+}
+
+.plus {
+  color: #FFFFFF;
 }
 
 .poolCard {
@@ -340,6 +516,49 @@ body {
   font-family: "Brandon-Grotesque";
   font-weight: normal;
   font-style: normal;
+}
+
+.form__link {
+  color: #000000;
+  border: none;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.7rem;
+  background-color: #FFDE00;
+  display: inline-block;
+  padding: 0.75rem 4rem;
+  border-radius: 0.4rem;
+}
+.form__link:hover {
+  background-color: #CDB410;
+}
+
+.progress__indicator--wrapper {
+  padding-bottom: 5rem;
+}
+.progress__indicator--wrapper small {
+  font-size: 1.3rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  color: #FFDE00;
+}
+.progress__indicator--wrapper .progress__indicator {
+  border: solid 0.025rem #3842C1;
+  max-width: 25rem;
+  height: 1rem;
+  background-color: #FFFFFF;
+  margin: 0.5rem 0;
+}
+.progress__indicator--wrapper .progress__indicator span {
+  display: block;
+  height: 100%;
+  background-color: #000046;
+}
+
+.plus {
+  color: #FFFFFF;
 }
 
 .projectInfo {
@@ -568,6 +787,49 @@ body {
   font-style: normal;
 }
 
+.form__link {
+  color: #000000;
+  border: none;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.7rem;
+  background-color: #FFDE00;
+  display: inline-block;
+  padding: 0.75rem 4rem;
+  border-radius: 0.4rem;
+}
+.form__link:hover {
+  background-color: #CDB410;
+}
+
+.progress__indicator--wrapper {
+  padding-bottom: 5rem;
+}
+.progress__indicator--wrapper small {
+  font-size: 1.3rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  color: #FFDE00;
+}
+.progress__indicator--wrapper .progress__indicator {
+  border: solid 0.025rem #3842C1;
+  max-width: 25rem;
+  height: 1rem;
+  background-color: #FFFFFF;
+  margin: 0.5rem 0;
+}
+.progress__indicator--wrapper .progress__indicator span {
+  display: block;
+  height: 100%;
+  background-color: #000046;
+}
+
+.plus {
+  color: #FFFFFF;
+}
+
 .launchProject {
   background-color: #00008C;
   min-height: 100vh;
@@ -602,27 +864,6 @@ body {
 }
 .launchProject__item--form {
   background-color: #0819B8;
-}
-.launchProject__item--form .progress__indicator--wrapper {
-  padding-bottom: 5rem;
-}
-.launchProject__item--form .progress__indicator--wrapper small {
-  font-size: 1.3rem;
-  font-family: "Brandon-Grotesque";
-  font-weight: normal;
-  font-style: normal;
-  color: #FFDE00;
-}
-.launchProject__item--form .progress__indicator--wrapper .progress__indicator {
-  max-width: 25rem;
-  height: 1rem;
-  background-color: #FFFFFF;
-  margin: 0.5rem 0;
-}
-.launchProject__item--form .progress__indicator--wrapper .progress__indicator span {
-  display: block;
-  height: 100%;
-  background-color: #000046;
 }
 .launchProject__item--form .form--group {
   padding: 2rem 0;
@@ -674,13 +915,39 @@ body {
   font-weight: normal;
   font-style: normal;
 }
-.launchProject__item--form .next {
+.launchProject__item .image {
+  padding-top: 4rem;
+}
+
+body {
+  background-color: #0616B6;
+}
+
+.container {
+  width: 95%;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.title {
+  font-size: 2.75rem;
+  color: #FFFFFF;
+  font-family: "Brandon-Grotesque";
+  font-weight: black;
+  font-style: normal;
+}
+
+.paragraph {
+  color: #FFDE00;
+  font-size: 2rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+
+.form__link {
   color: #000000;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
+  border: none;
   font-family: "Brandon-Grotesque";
   font-weight: normal;
   font-style: normal;
@@ -689,13 +956,213 @@ body {
   display: inline-block;
   padding: 0.75rem 4rem;
   border-radius: 0.4rem;
-  margin-top: 2rem;
 }
-.launchProject__item--form .next:hover {
+.form__link:hover {
   background-color: #CDB410;
 }
-.launchProject__item .image {
-  padding-top: 4rem;
+
+.progress__indicator--wrapper {
+  padding-bottom: 5rem;
+}
+.progress__indicator--wrapper small {
+  font-size: 1.3rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  color: #FFDE00;
+}
+.progress__indicator--wrapper .progress__indicator {
+  border: solid 0.025rem #3842C1;
+  max-width: 25rem;
+  height: 1rem;
+  background-color: #FFFFFF;
+  margin: 0.5rem 0;
+}
+.progress__indicator--wrapper .progress__indicator span {
+  display: block;
+  height: 100%;
+  background-color: #000046;
+}
+
+.plus {
+  color: #FFFFFF;
+}
+
+.launchProjectSecond__top {
+  background-color: #00008C;
+  padding: 5rem 0;
+}
+.launchProjectSecond__top .container .info .progress__indicator--wrapper {
+  padding-bottom: 3.5rem;
+}
+.launchProjectSecond__top .container .info form {
+  margin-bottom: 5rem;
+}
+.launchProjectSecond__top .container .info form .form--group:first-child {
+  text-align: center;
+  min-height: 17.5rem;
+  min-width: 17.5rem;
+  border-radius: 0.4rem;
+  border: dashed 0.13rem #FFFFFF;
+  display: grid;
+  place-items: center;
+}
+.launchProjectSecond__top .container .info form .form--group:first-child input {
+  display: none;
+}
+.launchProjectSecond__top .container .info form .form--group:first-child label {
+  height: 2.1rem;
+  width: 2.1rem;
+  cursor: pointer;
+  border: dashed 0.13rem #FFFFFF;
+  border-radius: 0.3rem;
+  display: grid;
+  place-items: center;
+}
+.launchProjectSecond__top .container .info form .form--group:first-child #imageName {
+  color: green;
+}
+.launchProjectSecond__top .container .info form .form--group:nth-child(2) {
+  width: 100%;
+}
+.launchProjectSecond__top .container .info form .form--group:nth-child(2) .input--group {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0;
+  padding: 1.75rem 0;
+  width: 100%;
+  border-bottom: solid 1px #3842C1;
+}
+.launchProjectSecond__top .container .info form .form--group:nth-child(2) .input--group input {
+  background-color: transparent;
+  width: 22.5rem;
+  border: none;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  color: #FFFFFF;
+  width: 100%;
+}
+.launchProjectSecond__top .container .info form .form--group:nth-child(2) .input--group input:focus {
+  outline: none;
+}
+.launchProjectSecond__top .container .info form .form--group:nth-child(2) .input--group .input__image {
+  background-color: #FFE227;
+  height: 1.5rem;
+  width: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  border-radius: 50%;
+}
+.launchProjectSecond__top .container .info form .form--group:nth-child(2) .input--group .input__image .icon {
+  font-size: 0.75rem;
+  color: #00008C;
+}
+.launchProjectSecond__top .container .info form .form--group:nth-child(2) ::-moz-placeholder {
+  font-size: 1.4rem;
+  color: #FFFFFF;
+  opacity: 1;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+.launchProjectSecond__top .container .info form .form--group:nth-child(2) :-ms-input-placeholder {
+  font-size: 1.4rem;
+  color: #FFFFFF;
+  opacity: 1;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+.launchProjectSecond__top .container .info form .form--group:nth-child(2) ::placeholder {
+  font-size: 1.4rem;
+  color: #FFFFFF;
+  opacity: 1;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+.launchProjectSecond__bottom .container {
+  padding: 0 2rem;
+}
+.launchProjectSecond__bottom .form--group.description {
+  padding-top: 7.5rem;
+  font-size: 1.6rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+.launchProjectSecond__bottom .form--group.description textarea {
+  background-color: #00008C;
+  border: none;
+  border-radius: 0.6rem;
+  display: block;
+  width: 100%;
+  color: #FFFFFF;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  padding: 3rem;
+}
+.launchProjectSecond__bottom .form--group.description textarea:focus {
+  outline: none;
+}
+.launchProjectSecond__bottom .form--group.description ::-moz-placeholder {
+  font-size: 1.6rem;
+}
+.launchProjectSecond__bottom .form--group.description :-ms-input-placeholder {
+  font-size: 1.6rem;
+}
+.launchProjectSecond__bottom .form--group.description ::placeholder {
+  font-size: 1.6rem;
+}
+.launchProjectSecond__bottom .form--group.description label {
+  color: rgba(255, 255, 255, 0.6039215686);
+  margin-top: 1rem;
+}
+.launchProjectSecond__bottom .form--group {
+  padding-bottom: 3.2rem;
+}
+.launchProjectSecond__bottom .form--group label {
+  display: block;
+  font-family: "Brandon-Grotesque";
+  font-weight: medium;
+  font-style: normal;
+  color: #FFDE00;
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+.launchProjectSecond__bottom .form--group input {
+  width: 100%;
+  background-color: #00008C;
+  border: none;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  color: #FFFFFF;
+}
+.launchProjectSecond__bottom .form--group input:focus {
+  outline: none;
+}
+.launchProjectSecond__bottom .form--group input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.launchProjectSecond__bottom .form--group ::-moz-placeholder {
+  font-size: 1.6rem;
+}
+.launchProjectSecond__bottom .form--group :-ms-input-placeholder {
+  font-size: 1.6rem;
+}
+.launchProjectSecond__bottom .form--group ::placeholder {
+  font-size: 1.6rem;
+}
+.launchProjectSecond__bottom .commit {
+  margin: 3.7rem 0 7rem 0;
+  text-align: center;
 }
 
 @media screen and (max-width: 650px) {
@@ -834,6 +1301,49 @@ body {
   font-style: normal;
 }
 
+.form__link {
+  color: #000000;
+  border: none;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.7rem;
+  background-color: #FFDE00;
+  display: inline-block;
+  padding: 0.75rem 4rem;
+  border-radius: 0.4rem;
+}
+.form__link:hover {
+  background-color: #CDB410;
+}
+
+.progress__indicator--wrapper {
+  padding-bottom: 5rem;
+}
+.progress__indicator--wrapper small {
+  font-size: 1.3rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  color: #FFDE00;
+}
+.progress__indicator--wrapper .progress__indicator {
+  border: solid 0.025rem #3842C1;
+  max-width: 25rem;
+  height: 1rem;
+  background-color: #FFFFFF;
+  margin: 0.5rem 0;
+}
+.progress__indicator--wrapper .progress__indicator span {
+  display: block;
+  height: 100%;
+  background-color: #000046;
+}
+
+.plus {
+  color: #FFFFFF;
+}
+
 @media screen and (max-width: 650px) {
   .launchProject__item {
     width: 100%;
@@ -909,5 +1419,181 @@ body {
   }
   .launchProject__item--form form {
     padding: 0 10rem;
+  }
+}
+body {
+  background-color: #0616B6;
+}
+
+.container {
+  width: 95%;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.title {
+  font-size: 2.75rem;
+  color: #FFFFFF;
+  font-family: "Brandon-Grotesque";
+  font-weight: black;
+  font-style: normal;
+}
+
+.paragraph {
+  color: #FFDE00;
+  font-size: 2rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+
+.form__link {
+  color: #000000;
+  border: none;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.7rem;
+  background-color: #FFDE00;
+  display: inline-block;
+  padding: 0.75rem 4rem;
+  border-radius: 0.4rem;
+}
+.form__link:hover {
+  background-color: #CDB410;
+}
+
+.progress__indicator--wrapper {
+  padding-bottom: 5rem;
+}
+.progress__indicator--wrapper small {
+  font-size: 1.3rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  color: #FFDE00;
+}
+.progress__indicator--wrapper .progress__indicator {
+  border: solid 0.025rem #3842C1;
+  max-width: 25rem;
+  height: 1rem;
+  background-color: #FFFFFF;
+  margin: 0.5rem 0;
+}
+.progress__indicator--wrapper .progress__indicator span {
+  display: block;
+  height: 100%;
+  background-color: #000046;
+}
+
+.plus {
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 650px) {
+  .launchProjectSecond__top .container .info .progress__indicator--wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+  .launchProjectSecond__top .container .info .progress__indicator--wrapper .progress__indicator {
+    width: 100%;
+  }
+  .launchProjectSecond__top .container .info form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.6rem;
+    text-align: center;
+    padding: 0 4rem;
+  }
+}
+@media screen and (min-width: 651px) {
+  .launchProjectSecond__top .container .info .progress__indicator--wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+  .launchProjectSecond__top .container .info .progress__indicator--wrapper .progress__indicator {
+    width: 100%;
+  }
+  .launchProjectSecond__top .container .info form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.6rem;
+    text-align: center;
+  }
+  .launchProjectSecond__top .container .info form .form--group:nth-child(2) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    -moz-column-gap: 8rem;
+         column-gap: 8rem;
+  }
+  .launchProjectSecond__top .container .info form .form--group:nth-child(2) .title {
+    text-align: left;
+  }
+  .launchProjectSecond__top .container .image {
+    text-align: center;
+  }
+  .launchProjectSecond__bottom .container {
+    padding: 0;
+  }
+  .launchProjectSecond__bottom .container .item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    -moz-column-gap: 4rem;
+         column-gap: 4rem;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .launchProjectSecond__top .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0;
+  }
+  .launchProjectSecond__top .container .info {
+    width: 65%;
+  }
+  .launchProjectSecond__top .container .info .progress__indicator--wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0;
+  }
+  .launchProjectSecond__top .container .info form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3.6rem;
+  }
+  .launchProjectSecond__top .container .image {
+    align-self: flex-end;
+    width: 30%;
+  }
+  .launchProjectSecond__bottom .container {
+    margin-top: 7.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 6.8rem;
+  }
+  .launchProjectSecond__bottom .container .form--group.description {
+    padding-top: 0;
+    width: 50%;
+  }
+  .launchProjectSecond__bottom .container .item {
+    width: 50%;
   }
 }/*# sourceMappingURL=main.css.map */

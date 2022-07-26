@@ -1,0 +1,168 @@
+@import '../../sass/basis';
+@import '../../sass/variables';
+
+.launchProjectSecond{
+    &__top{
+        background-color: $primaryDeepBlue;
+        padding: 5rem 0;
+        .container{
+            .info{
+                .progress__indicator--wrapper{
+                    padding-bottom: 3.5rem;
+                }
+                form{
+                    margin-bottom: 5rem;
+                    .form--group:first-child{
+                        text-align:center;
+                        min-height: 17.5rem;
+                        min-width: 17.5rem;
+                        border-radius: .4rem;
+                        border: dashed .13rem $borderLight;
+                        display: grid;
+                        place-items: center;
+
+                
+                        input{
+                            display: none;
+                        }
+                        label{
+                            height: 2.1rem;
+                            width: 2.1rem;
+                            cursor:pointer;
+                            border: dashed .13rem $borderLight;
+                            border-radius: .3rem;
+                            display: grid;
+                            place-items: center;
+                        }
+                        #imageName{
+                            color:green;
+                        }
+                    }
+
+                    .form--group:nth-child(2){
+                        width: 100%;
+                        .input--group{
+                            @include flexBox(row, flex-start, center);
+                            padding: 1.75rem 0;
+                            width: 100%;
+                            border-bottom: solid 1px $border;
+                            input{
+                                background-color: transparent;
+                                width: 22.5rem;
+                                border: none;
+                                font-family: 'Brandon-Grotesque';
+                                font-weight: normal;
+                                font-style: normal;
+                                color: #FFFFFF;
+                                width: 100%;
+
+                                &:focus{
+                                    outline: none;
+                                }
+                            }
+
+                            .input__image{
+                                background-color: $secondaryYellow;
+                                height: 1.5rem;
+                                width: 1.5rem;
+                                @include flexBox(row, center, center);
+                                border-radius: 50%;
+                                .icon{
+                                    font-size: .75rem;
+                                    color: $primaryDeepBlue
+                                }
+                            }
+                        }
+                        
+
+                        ::placeholder{
+                            font-size: 1.4rem;
+                            color: #FFFFFF;
+                            opacity: 1;
+                            font-family: 'Brandon-Grotesque';
+                            font-weight: normal;
+                            font-style: normal;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    &__bottom{
+        .container{
+            padding: 0 2rem;
+        }
+        .form--group.description{
+            padding-top: 7.5rem;
+            font-size: 1.6rem;
+            font-family: 'Brandon-Grotesque';
+            font-weight: normal;
+            font-style: normal;
+            textarea{
+                background-color: $primaryDeepBlue;
+                border: none;
+                border-radius: .6rem;
+                display: block;
+                width: 100%;
+                color: #FFFFFF;
+                font-family: 'Brandon-Grotesque';
+                font-weight: normal;
+                font-style: normal;
+                padding: 3rem;
+                &:focus{
+                    outline: none;
+                }
+            }
+
+            ::placeholder{
+                font-size: 1.6rem;
+            }
+
+            label{
+                color: #ffffff9a;
+                margin-top: 1rem;
+            }
+        }
+
+        .form--group{
+            padding-bottom: 3.2rem;
+            label{
+                display: block;
+                font-family: 'Brandon-Grotesque';
+                font-weight: medium;
+                font-style: normal;
+                color: $primaryYellow;
+                font-size: 1.6rem;
+                margin-bottom: .8rem;
+            }
+
+            input{
+                width: 100%;
+                background-color: $primaryDeepBlue;
+                border: none;
+                padding: 1.5rem;
+                font-size: 1.6rem;
+                color: #FFFFFF;
+                &:focus{
+                    outline: none;
+                }
+            }
+
+            input::-webkit-inner-spin-button{
+                -webkit-appearance: none;
+            }
+
+            ::placeholder{
+                font-size: 1.6rem;
+                
+            }
+        }
+
+        .commit{
+            margin: 3.7rem 0 7rem 0;
+            text-align: center;
+        }
+    }
+}
