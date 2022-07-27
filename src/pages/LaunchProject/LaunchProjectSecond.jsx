@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {FaPlus} from 'react-icons/fa'
+import off from '../../images/toggle-off.png'
+import on from '../../images/toggle-on.png'
 
 function LaunchProjectSecond() {
     const style = {
         width: '100%'
     }
+
+    const [toggle, setToggle] = useState(false)
+    const handleToggle = () => {
+        setToggle(prev => !prev)
+    }
+
   return (
     <div className='launchProjectSecond'>
         <div className='launchProjectSecond__top'>
@@ -63,7 +71,7 @@ function LaunchProjectSecond() {
                 <div className="container">
                     <div className="form--group description">
                         <textarea name="" id="description" cols="30" rows="10" maxLength='300' placeholder='Project Description...'></textarea>
-                        <label htmlFor="description">Brief description about project</label>
+                        <label htmlFor="description">*Brief description about project</label>
                     </div>
 
                     <div className='item'>
@@ -72,29 +80,29 @@ function LaunchProjectSecond() {
                             <input type="number" id='softCap' placeholder='100'/>
                         </div>
                         <div className="form--group">
-                            <label htmlFor="minContribution">Min. Contribution</label>
-                            <input type="number" id='minContribution' placeholder='0.5 ETH'/>
-                        </div>
-                        <div className="form--group">
-                            <label htmlFor="rate">Presale rate (1 Eth =)</label>
-                            <input type="number" id='rate' placeholder='% of supply'/>
-                        </div>
-                        <div className="form--group">
                             <label htmlFor="hardCap">Hard Cap</label>
                             <input type="number" id='hardCap' placeholder='100'/>
+                        </div>
+                        <div className="form--group">
+                            <label htmlFor="minContribution">Min. Contribution</label>
+                            <input type="number" id='minContribution' placeholder='0.5 ETH'/>
                         </div>
                         <div className="form--group">
                             <label htmlFor="maxContribution">Max. Contribution</label>
                             <input type="number" id='maxContribution' placeholder='3 ETH'/>
                         </div>
                         <div className="form--group">
-                            <label htmlFor="vestTokens">Vest Tokens</label>
-                            <input type="number" id='vestTokens' placeholder='eg. 0.5% of tokens every day'/>
+                            <label htmlFor="rate">Presale rate (1 Eth =)</label>
+                            <input type="text" id='rate' placeholder='% of supply'/>
+                        </div>
+                        <div className="form--group">
+                            <label htmlFor="vestTokens">Vest Tokens <img className='toggle-icon' onClick={handleToggle} src={toggle ? on : off} alt='toggle'/></label>
+                            <input type="text" id='vestTokens' placeholder='eg. 0.5% of tokens every day'/>
                         </div>
                     </div>
                 </div>
                 <div className="commit">
-                    <button className='form__link'>Commit</button>
+                    <button className='form__link'> Commit <img src={require('../../images/arrow-round-forward.png')} alt='>'/></button>
                 </div>
             </form>
         </div>

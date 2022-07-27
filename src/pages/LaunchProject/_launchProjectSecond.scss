@@ -142,22 +142,27 @@
             input{
                 width: 100%;
                 background-color: $primaryDeepBlue;
-                border: none;
+                border: solid .1rem $border;
                 padding: 1.5rem;
                 font-size: 1.6rem;
                 color: #FFFFFF;
                 &:focus{
                     outline: none;
                 }
-            }
-
-            input::-webkit-inner-spin-button{
-                -webkit-appearance: none;
+                border-radius: .25rem;
             }
 
             ::placeholder{
                 font-size: 1.6rem;
-                
+            }
+        }
+
+        .form--group:last-child{
+            label{
+                @include flexBox(row, flex-start, center, 1.5rem);
+                .toggle-icon{
+                    cursor: pointer;
+                }
             }
         }
 

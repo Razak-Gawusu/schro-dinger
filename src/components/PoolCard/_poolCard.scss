@@ -94,8 +94,10 @@
         div{
             @include flexBox(row, space-between, center);
             color: $secondaryLightYellow;
-            font-style: medium;
+            font-family: 'Proxima Soft';
+            font-weight: medium;
             font-size: 1rem;
+            font-style: italic;
         }
     }
 

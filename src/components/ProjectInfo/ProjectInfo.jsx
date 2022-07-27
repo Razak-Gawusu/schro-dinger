@@ -2,6 +2,7 @@ import React from 'react'
 import clock from '../../images/clock-history.svg'
 
 function ProjectInfo(props) {
+  
   return (
     <div className='projectInfo'>
         <div className="projectInfo__item">

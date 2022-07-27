@@ -330,7 +330,7 @@ body {
   align-items: center;
   gap: 0;
   padding: 3.5rem 0;
-  border-top: solid 1px #FFFFFF;
+  border-top: solid 1px #3842C1;
 }
 #footer .container .footer__item.copyright {
   font-size: 1.7rem;
@@ -544,8 +544,10 @@ body {
   align-items: center;
   gap: 0;
   color: #FFF3A4;
-  font-style: medium;
+  font-family: "Proxima Soft";
+  font-weight: medium;
   font-size: 1rem;
+  font-style: italic;
 }
 
 body {
@@ -637,7 +639,7 @@ body {
   grid-template-columns: repeat(5, 1fr);
   justify-items: center;
   align-items: center;
-  border-bottom: solid 0.5px rgba(255, 255, 255, 0.3568627451);
+  border-bottom: solid 0.1rem #3842C1;
 }
 .projectInfo__item:first-child {
   display: flex;
@@ -679,6 +681,9 @@ body {
   font-weight: normal;
 }
 
+.search__form {
+  margin-top: 10rem;
+}
 .search__form .form--group {
   width: 100%;
   display: flex;
@@ -692,19 +697,20 @@ body {
   min-width: 10rem;
   flex-grow: 1;
   background-color: transparent;
-  border: solid 0.05rem #EDEDED;
+  border: solid 0.1rem #3842C1;
 }
 .search__form .form--group .searchInput {
   height: 6.4rem;
   flex-grow: 15;
   background-color: transparent;
-  border: solid 0.1rem #EDEDED;
+  border: solid 0.1rem #3842C1;
   padding: 0 4rem;
   font-size: 2rem;
   color: #FFFFFF;
   font-family: "Brandon-Grotesque";
   font-weight: normal;
   font-style: normal;
+  outline: none;
 }
 
 ::-moz-placeholder {
@@ -731,6 +737,37 @@ body {
   font-style: normal;
 }
 
+@media screen and (max-width: 650px) {
+  .search__form .form--group .btn {
+    height: 4.5rem;
+    min-width: 6rem;
+  }
+  .search__form .form--group .searchInput {
+    height: 4.5rem;
+    font-size: 1.5rem;
+  }
+  ::-moz-placeholder {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.7450980392);
+    font-family: "Brandon-Grotesque";
+    font-weight: normal;
+    font-style: normal;
+  }
+  :-ms-input-placeholder {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.7450980392);
+    font-family: "Brandon-Grotesque";
+    font-weight: normal;
+    font-style: normal;
+  }
+  ::placeholder {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.7450980392);
+    font-family: "Brandon-Grotesque";
+    font-weight: normal;
+    font-style: normal;
+  }
+}
 body {
   background-color: #0616B6;
 }
@@ -1369,10 +1406,10 @@ body {
   color: #FFFFFF;
 }
 .launchProject__item--info .text .title {
-  font-size: 2.5rem;
+  font-size: 2.75rem;
 }
 .launchProject__item--info .text .paragraph {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   color: #FFFFFF;
   font-weight: normal;
 }
@@ -1384,7 +1421,7 @@ body {
 }
 .launchProject__item--form .form--group label {
   display: block;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-family: "Brandon-Grotesque";
   font-weight: normal;
   font-style: normal;
@@ -1405,7 +1442,7 @@ body {
   background-color: #000A8B;
   border: solid 1px #3842C1;
   padding: 0 2rem;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-family: "Brandon-Grotesque";
   font-weight: normal;
   font-style: normal;
@@ -1670,16 +1707,14 @@ body {
 .launchProjectSecond__bottom .form--group input {
   width: 100%;
   background-color: #00008C;
-  border: none;
+  border: solid 0.1rem #3842C1;
   padding: 1.5rem;
   font-size: 1.6rem;
   color: #FFFFFF;
+  border-radius: 0.25rem;
 }
 .launchProjectSecond__bottom .form--group input:focus {
   outline: none;
-}
-.launchProjectSecond__bottom .form--group input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
 }
 .launchProjectSecond__bottom .form--group ::-moz-placeholder {
   font-size: 1.6rem;
@@ -1690,12 +1725,29 @@ body {
 .launchProjectSecond__bottom .form--group ::placeholder {
   font-size: 1.6rem;
 }
+.launchProjectSecond__bottom .form--group:last-child label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5rem;
+}
+.launchProjectSecond__bottom .form--group:last-child label .toggle-icon {
+  cursor: pointer;
+}
 .launchProjectSecond__bottom .commit {
   margin: 3.7rem 0 7rem 0;
   text-align: center;
 }
 
 @media screen and (max-width: 650px) {
+  .home .featured__pool .container .featured__pool--item.text .primary {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2.7rem;
+  }
   .home .featured__pool .container .featured__pool--item.text .secondary {
     text-align: center;
   }
@@ -1773,6 +1825,7 @@ body {
   }
   .home .upcomingPools__item {
     grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
   }
 }
 @media screen and (min-width: 1080px) {
@@ -1963,7 +2016,7 @@ body {
     justify-content: flex-start !important;
     padding: 1rem;
   }
-  .launchProject__item--form .next {
+  .launchProject__item--form .form__link {
     float: right;
   }
 }

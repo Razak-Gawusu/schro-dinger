@@ -6,7 +6,7 @@
     grid-template-columns: repeat(5, 1fr);
     justify-items: center;
     align-items: center;
-    border-bottom: solid .5px #ffffff5b;
+    border-bottom: solid .1rem $border;
 
     &__item:first-child{
         @include flexBox(row, flex-start, center);

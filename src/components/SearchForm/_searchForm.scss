@@ -1,4 +1,7 @@
+@import '../../sass/config';
+
 .search__form{
+    margin-top: 10rem;
     .form--group{
         width: 100%;
         @include flexBox(row, flex-start, center);
@@ -7,20 +10,21 @@
             min-width: 10rem;
             flex-grow: 1;
             background-color: transparent;
-            border: solid .05rem $secondarywhite;
+            border: solid .1rem $border;
         }
 
         .searchInput{
             height: 6.4rem;
             flex-grow: 15;
             background-color: transparent;
-            border: solid .1rem $secondarywhite;
+            border: solid .1rem $border;
             padding: 0 4rem;
             font-size: 2rem;
             color: #FFFFFF;
             font-family: 'Brandon-Grotesque';
             font-weight: normal;
             font-style: normal;
+            outline: none;
         }
     }
 }
@@ -31,4 +35,28 @@
     font-family: 'Brandon-Grotesque';
     font-weight: normal;
     font-style: normal;
+}
+
+@include media-sm{
+    .search__form{
+        .form--group{
+            .btn{
+                height: 4.5rem;
+                min-width: 6rem;
+            }
+    
+            .searchInput{
+                height: 4.5rem;
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    ::placeholder{
+        font-size: 1.5rem;
+        color: #ffffffbe;
+        font-family: 'Brandon-Grotesque';
+        font-weight: normal;
+        font-style: normal;
+    }
 }

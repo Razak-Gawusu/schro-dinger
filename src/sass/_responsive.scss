@@ -5,7 +5,9 @@
         .featured__pool{
             .container{
                 .featured__pool--item.text{
-                    
+                    .primary{
+                        @include flexBox(row, center, center, 2.7rem);
+                    }
                     .secondary{
                         text-align: center;
 
@@ -89,7 +91,7 @@
             }
             &__item{
                 grid-template-columns: repeat(2, 1fr);
-                // justify-items: center;
+                justify-items: center;
             }
         }
     }
