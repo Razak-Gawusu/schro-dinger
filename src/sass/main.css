@@ -62,13 +62,13 @@ body {
 }
 
 .container {
-  width: 95%;
+  width: 85%;
   max-width: 1500px;
   margin: auto;
 }
 
 .title {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   color: #FFFFFF;
   font-family: "Brandon-Grotesque";
   font-weight: black;
@@ -146,13 +146,13 @@ body {
 }
 
 .container {
-  width: 95%;
+  width: 85%;
   max-width: 1500px;
   margin: auto;
 }
 
 .title {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   color: #FFFFFF;
   font-family: "Brandon-Grotesque";
   font-weight: black;
@@ -239,13 +239,13 @@ body {
 }
 
 .container {
-  width: 95%;
+  width: 85%;
   max-width: 1500px;
   margin: auto;
 }
 
 .title {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   color: #FFFFFF;
   font-family: "Brandon-Grotesque";
   font-weight: black;
@@ -371,13 +371,13 @@ body {
 }
 
 .container {
-  width: 95%;
+  width: 85%;
   max-width: 1500px;
   margin: auto;
 }
 
 .title {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   color: #FFFFFF;
   font-family: "Brandon-Grotesque";
   font-weight: black;
@@ -555,13 +555,13 @@ body {
 }
 
 .container {
-  width: 95%;
+  width: 85%;
   max-width: 1500px;
   margin: auto;
 }
 
 .title {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   color: #FFFFFF;
   font-family: "Brandon-Grotesque";
   font-weight: black;
@@ -773,13 +773,13 @@ body {
 }
 
 .container {
-  width: 95%;
+  width: 85%;
   max-width: 1500px;
   margin: auto;
 }
 
 .title {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   color: #FFFFFF;
   font-family: "Brandon-Grotesque";
   font-weight: black;
@@ -889,13 +889,13 @@ body {
 }
 
 .container {
-  width: 95%;
+  width: 85%;
   max-width: 1500px;
   margin: auto;
 }
 
 .title {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   color: #FFFFFF;
   font-family: "Brandon-Grotesque";
   font-weight: black;
@@ -1031,7 +1031,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 0;
 }
 .projectMainInfo__item:nth-child(3) .token__info .item:first-child .name {
@@ -1171,13 +1171,13 @@ body {
 }
 
 .container {
-  width: 95%;
+  width: 85%;
   max-width: 1500px;
   margin: auto;
 }
 
 .title {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   color: #FFFFFF;
   font-family: "Brandon-Grotesque";
   font-weight: black;
@@ -1302,13 +1302,13 @@ body {
 }
 
 .container {
-  width: 95%;
+  width: 85%;
   max-width: 1500px;
   margin: auto;
 }
 
 .title {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   color: #FFFFFF;
   font-family: "Brandon-Grotesque";
   font-weight: black;
@@ -1475,13 +1475,13 @@ body {
 }
 
 .container {
-  width: 95%;
+  width: 85%;
   max-width: 1500px;
   margin: auto;
 }
 
 .title {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   color: #FFFFFF;
   font-family: "Brandon-Grotesque";
   font-weight: black;
@@ -1773,7 +1773,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 0;
     padding: 0.5rem 0;
   }
@@ -1878,13 +1878,13 @@ body {
 }
 
 .container {
-  width: 95%;
+  width: 85%;
   max-width: 1500px;
   margin: auto;
 }
 
 .title {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   color: #FFFFFF;
   font-family: "Brandon-Grotesque";
   font-weight: black;
@@ -1982,6 +1982,9 @@ body {
   .launchProject__item--form .progress__indicator--wrapper .progress__indicator {
     margin: 1rem auto 0 auto;
   }
+  .launchProject__item--form .form__link {
+    margin-top: 4rem;
+  }
 }
 @media screen and (min-width: 651px) {
   .launchProject {
@@ -2039,13 +2042,13 @@ body {
 }
 
 .container {
-  width: 95%;
+  width: 85%;
   max-width: 1500px;
   margin: auto;
 }
 
 .title {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   color: #FFFFFF;
   font-family: "Brandon-Grotesque";
   font-weight: black;
@@ -2230,13 +2233,13 @@ body {
 }
 
 .container {
-  width: 95%;
+  width: 85%;
   max-width: 1500px;
   margin: auto;
 }
 
 .title {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   color: #FFFFFF;
   font-family: "Brandon-Grotesque";
   font-weight: black;
@@ -2320,6 +2323,9 @@ body {
   .project__top .container .projectMainInfo__item:nth-child(2) .details {
     padding-left: 2.5rem;
   }
+  .project__top .container .projectMainInfo__item:last-child {
+    display: none;
+  }
   .project__down .project__tokenomics {
     margin-bottom: 5rem;
   }
@@ -2338,11 +2344,21 @@ body {
   .project__top .container .projectMainInfo__item:nth-child(3) {
     grid-template-areas: "one two three";
   }
+  .project__top .container .projectMainInfo__item:last-child {
+    display: none;
+  }
   .project__down .project__tokenomics {
     margin-bottom: 5rem;
   }
 }
 @media screen and (min-width: 1080px) {
+  .project__top .container .projectMainInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+  }
   .project__down {
     display: flex;
     flex-direction: row;
@@ -2364,5 +2380,8 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 0;
+  }
+  .project__top .container .projectMainInfo__item:last-child {
+    display: block;
   }
 }/*# sourceMappingURL=main.css.map */

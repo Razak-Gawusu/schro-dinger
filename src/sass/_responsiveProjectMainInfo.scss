@@ -12,6 +12,10 @@
                             padding-left: 2.5rem;
                         }
                     }
+
+                    &__item:last-child{
+                        display: none;
+                    }
                 }
             }
         }
@@ -39,6 +43,10 @@
                             "one two three"
                         ;
                     }
+
+                    &__item:last-child{
+                        display: none;
+                    }
                 }
             }
         }
@@ -52,6 +60,13 @@
 }
 @include media-lg {
     .project{
+        &__top{
+            .container{
+                .projectMainInfo{
+                    @include flexBox(row, space-between, center);
+                }
+            }
+        }
         &__down{
             @include flexBox(row, space-between);
 
@@ -70,6 +85,9 @@
         &__top{
             .container{
                 .projectMainInfo{
+                    &__item:last-child{
+                        display: block;
+                    }
                     @include flexBox(row, space-between, center);
                 }
             }

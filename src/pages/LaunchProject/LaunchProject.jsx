@@ -30,7 +30,7 @@ function LaunchProject() {
                         <label htmlFor="network">Network</label>
                         <select 
                             name="network" 
-                            id="netword"
+                            id="network"
                         >
                             <option value="ethereum"><img src={require('../../images/Ethereum.png')} alt="" /> Ethereum</option>
                             <option value="ethereum"><img src={require('../../images/bitcoin.png')} alt="" /> Bitcoin</option>
