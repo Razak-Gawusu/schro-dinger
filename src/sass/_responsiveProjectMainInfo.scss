@@ -69,7 +69,7 @@
             }
         }
         &__down{
-            @include flexBox(row, space-between, center);
+            @include flexBox(row, space-between, flex-start);
 
             .project__tokenomics{
                 width: 37.5%;

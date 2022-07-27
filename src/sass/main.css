@@ -2357,7 +2357,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     gap: 0;
   }
   .project__down .project__tokenomics {
