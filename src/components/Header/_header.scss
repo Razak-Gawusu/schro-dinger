@@ -5,20 +5,5 @@
     .container{
         @include flexBox(row, space-between, center);   
         padding: 3.3rem 0;
-
-        .header__link{
-            color: $primaryYellow;
-            font-size: 2rem;
-            padding: .35em .75em;
-            border: solid .1rem $borderYellow;
-            border-radius: .5rem;
-            font-family: 'Brandon-Grotesque';
-            font-weight: normal;
-            font-style: normal;
-            &:hover{
-                background-color: $primaryYellow;
-                color: $primaryDeepBlue;
-            }
-        }
     }
 }

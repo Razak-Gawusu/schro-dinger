@@ -1,0 +1,58 @@
+@import '../../sass/basis';
+@import '../../sass/variables';
+
+.project{
+    &__top{
+        background-color: $primaryDeepBlue;
+        padding: 5rem 0;
+        .container{
+            margin-bottom: 5rem;
+            padding: 3.6rem 0;
+        }
+    }
+
+    &__down{
+        padding: 5rem 0;
+        article:nth-child(2){
+            //margin-top: 5rem;
+            .project__description{
+                .title{
+                    font-size: 2.4rem;
+                    margin-bottom: .9rem;
+                    text-transform: uppercase;
+                }
+                .paragraph{
+                    font-size: 1.8rem;
+                    color: #ffffffc7;
+                }
+
+                .connect__wallet--link{
+                    display: inline-block;
+                    margin: 2.4rem 0;
+                    font-size: 1.6rem;
+                }
+            }
+
+            .alert{
+                @include flexBox(row, flex-start, flex-start, .85rem);
+                border: solid .2rem $primaryDeepBlue;
+                border-radius: .2rem;
+                padding: 2.5rem;
+                background: linear-gradient(135deg, $primaryDeepBlue, $primaryDeepBlue, #101FB1, $primaryDeepBlue, $primaryDeepBlue);
+                &__image{
+                    display: block;
+                }
+                &__text{
+                    .title{
+                        font-size: 1.4rem;
+                    }
+
+                    .paragraph{
+                        color: #ffffffb7;
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+    }
+}

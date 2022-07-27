@@ -5,6 +5,7 @@ import SharedLayout from './components/SharedLayout'
 import Home from './pages/Home/Home';
 import LaunchProject from './pages/LaunchProject/LaunchProject';
 import LaunchProjectSecond from './pages/LaunchProject/LaunchProjectSecond';
+import Project from './pages/Project/Project';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path='/' element={<SharedLayout />}>
             <Route index element={<Home />} />
             <Route path='/launchProjectSecond' element={<LaunchProjectSecond />} />
+            <Route path='/:projectID' element={<Project />} />
           </Route>
           <Route path='/launchProject' element={<LaunchProject />} />
         </Routes>

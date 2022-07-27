@@ -8,7 +8,7 @@ function Header() {
         <Link to='/'>
           <img className='header__image' src={require('../../images/logo.png')} alt="schro-dinger" />
         </Link>
-        <a className='header__link' href="#connect">Connect Wallet</a>
+        <a className='connect__wallet--link' href="#connect">Connect Wallet</a>
       </div>
     </header>
   )

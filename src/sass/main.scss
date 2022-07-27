@@ -1,18 +1,27 @@
 @import 'variables';
 @import 'resets';
 @import 'basis';
+@import 'config';
+
 @import '../components/Header/header';
 @import '../components/Footer/footer';
 @import '../components/PoolCard/poolCard';
 @import '../components/ProjectInfo/projectInfo';
 @import '../components/SearchForm/searchForm';
+@import '../components/Projects/tokenomics';
+@import '../components/Projects/ProjectMainInfo';
+
+
 @import '../pages/Home/home';
+@import '../pages/Project/project';
 @import '../pages/LaunchProject/launchProject';
 @import '../pages/LaunchProject/launchProjectSecond';
+
 @import 'responsive';
 @import 'responsiveLaunchProject';
 @import '_responsiveLaunchProjectSecond';
-@import 'config';
+@import 'responsiveProjectMainInfo';
+
 @import '../fonts/ProximaSoft/stylesheet.css';
 @import '../fonts/Brandon-Grotesque/stylesheet.css';
 

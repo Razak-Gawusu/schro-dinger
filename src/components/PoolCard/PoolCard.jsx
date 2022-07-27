@@ -1,10 +1,12 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 function PoolCard(props) {
     const style = {
         width: (props.amount / props.total) * 100 + '%'
     }
   return (
+    <Link to={`/${props.name}`}>
     <div className='poolCard'>
         <div className='poolCard__item'>
             <div className='profile'>
@@ -47,6 +49,7 @@ function PoolCard(props) {
             </div>
         </div>
     </div>
+    </Link>
   )
 }
 

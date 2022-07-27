@@ -18,6 +18,14 @@
 @import '../fonts/Brandon-Grotesque/stylesheet.css';
 @import '../fonts/ProximaSoft/stylesheet.css';
 @import '../fonts/Brandon-Grotesque/stylesheet.css';
+@import '../fonts/ProximaSoft/stylesheet.css';
+@import '../fonts/Brandon-Grotesque/stylesheet.css';
+@import '../fonts/ProximaSoft/stylesheet.css';
+@import '../fonts/Brandon-Grotesque/stylesheet.css';
+@import '../fonts/ProximaSoft/stylesheet.css';
+@import '../fonts/Brandon-Grotesque/stylesheet.css';
+@import '../fonts/ProximaSoft/stylesheet.css';
+@import '../fonts/Brandon-Grotesque/stylesheet.css';
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -75,6 +83,21 @@ body {
   font-style: normal;
 }
 
+.connect__wallet--link {
+  color: #FFDE00;
+  font-size: 2rem;
+  padding: 0.35em 0.75em;
+  border: solid 0.1rem #FFDE00;
+  border-radius: 0.5rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+.connect__wallet--link:hover {
+  background-color: #FFDE00;
+  color: #00008C;
+}
+
 .form__link {
   color: #000000;
   border: none;
@@ -142,6 +165,21 @@ body {
   font-family: "Brandon-Grotesque";
   font-weight: normal;
   font-style: normal;
+}
+
+.connect__wallet--link {
+  color: #FFDE00;
+  font-size: 2rem;
+  padding: 0.35em 0.75em;
+  border: solid 0.1rem #FFDE00;
+  border-radius: 0.5rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+.connect__wallet--link:hover {
+  background-color: #FFDE00;
+  color: #00008C;
 }
 
 .form__link {
@@ -195,20 +233,6 @@ body {
   gap: 0;
   padding: 3.3rem 0;
 }
-#header .container .header__link {
-  color: #FFDE00;
-  font-size: 2rem;
-  padding: 0.35em 0.75em;
-  border: solid 0.1rem #FFDE00;
-  border-radius: 0.5rem;
-  font-family: "Brandon-Grotesque";
-  font-weight: normal;
-  font-style: normal;
-}
-#header .container .header__link:hover {
-  background-color: #FFDE00;
-  color: #00008C;
-}
 
 body {
   background-color: #0616B6;
@@ -234,6 +258,21 @@ body {
   font-family: "Brandon-Grotesque";
   font-weight: normal;
   font-style: normal;
+}
+
+.connect__wallet--link {
+  color: #FFDE00;
+  font-size: 2rem;
+  padding: 0.35em 0.75em;
+  border: solid 0.1rem #FFDE00;
+  border-radius: 0.5rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+.connect__wallet--link:hover {
+  background-color: #FFDE00;
+  color: #00008C;
 }
 
 .form__link {
@@ -351,6 +390,21 @@ body {
   font-family: "Brandon-Grotesque";
   font-weight: normal;
   font-style: normal;
+}
+
+.connect__wallet--link {
+  color: #FFDE00;
+  font-size: 2rem;
+  padding: 0.35em 0.75em;
+  border: solid 0.1rem #FFDE00;
+  border-radius: 0.5rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+.connect__wallet--link:hover {
+  background-color: #FFDE00;
+  color: #00008C;
 }
 
 .form__link {
@@ -518,6 +572,21 @@ body {
   font-style: normal;
 }
 
+.connect__wallet--link {
+  color: #FFDE00;
+  font-size: 2rem;
+  padding: 0.35em 0.75em;
+  border: solid 0.1rem #FFDE00;
+  border-radius: 0.5rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+.connect__wallet--link:hover {
+  background-color: #FFDE00;
+  color: #00008C;
+}
+
 .form__link {
   color: #000000;
   border: none;
@@ -660,6 +729,301 @@ body {
   font-style: normal;
 }
 
+body {
+  background-color: #0616B6;
+}
+
+.container {
+  width: 95%;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.title {
+  font-size: 2.75rem;
+  color: #FFFFFF;
+  font-family: "Brandon-Grotesque";
+  font-weight: black;
+  font-style: normal;
+}
+
+.paragraph {
+  color: #FFDE00;
+  font-size: 2rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+
+.connect__wallet--link {
+  color: #FFDE00;
+  font-size: 2rem;
+  padding: 0.35em 0.75em;
+  border: solid 0.1rem #FFDE00;
+  border-radius: 0.5rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+.connect__wallet--link:hover {
+  background-color: #FFDE00;
+  color: #00008C;
+}
+
+.form__link {
+  color: #000000;
+  border: none;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.7rem;
+  background-color: #FFDE00;
+  display: inline-block;
+  padding: 0.75rem 4rem;
+  border-radius: 0.4rem;
+}
+.form__link:hover {
+  background-color: #CDB410;
+}
+
+.progress__indicator--wrapper {
+  padding-bottom: 5rem;
+}
+.progress__indicator--wrapper small {
+  font-size: 1.3rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  color: #FFDE00;
+}
+.progress__indicator--wrapper .progress__indicator {
+  border: solid 0.025rem #3842C1;
+  max-width: 25rem;
+  height: 1rem;
+  background-color: #FFFFFF;
+  margin: 0.5rem 0;
+}
+.progress__indicator--wrapper .progress__indicator span {
+  display: block;
+  height: 100%;
+  background-color: #000046;
+}
+
+.plus {
+  color: #FFFFFF;
+}
+
+.tokenomics {
+  border: solid 2px #000A8B;
+  border-radius: 0.25rem;
+}
+.tokenomics .heading {
+  background: linear-gradient(135deg, #0819B8, #2637DC, #0819B8);
+  padding: 1.4rem 3.8rem;
+}
+.tokenomics .heading .title {
+  font-size: 1.8rem;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.tokenomics .content__item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  padding: 1.5rem 3.8rem;
+  background-color: #00008C;
+  border-bottom: solid 1px #0616B6;
+}
+.tokenomics .content__item .name, .tokenomics .content__item .value {
+  font-size: 1.4rem;
+  color: #FFFFFF;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+.tokenomics .content__item:last-child {
+  border: none;
+}
+
+body {
+  background-color: #0616B6;
+}
+
+.container {
+  width: 95%;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.title {
+  font-size: 2.75rem;
+  color: #FFFFFF;
+  font-family: "Brandon-Grotesque";
+  font-weight: black;
+  font-style: normal;
+}
+
+.paragraph {
+  color: #FFDE00;
+  font-size: 2rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+
+.connect__wallet--link {
+  color: #FFDE00;
+  font-size: 2rem;
+  padding: 0.35em 0.75em;
+  border: solid 0.1rem #FFDE00;
+  border-radius: 0.5rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+.connect__wallet--link:hover {
+  background-color: #FFDE00;
+  color: #00008C;
+}
+
+.form__link {
+  color: #000000;
+  border: none;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.7rem;
+  background-color: #FFDE00;
+  display: inline-block;
+  padding: 0.75rem 4rem;
+  border-radius: 0.4rem;
+}
+.form__link:hover {
+  background-color: #CDB410;
+}
+
+.progress__indicator--wrapper {
+  padding-bottom: 5rem;
+}
+.progress__indicator--wrapper small {
+  font-size: 1.3rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  color: #FFDE00;
+}
+.progress__indicator--wrapper .progress__indicator {
+  border: solid 0.025rem #3842C1;
+  max-width: 25rem;
+  height: 1rem;
+  background-color: #FFFFFF;
+  margin: 0.5rem 0;
+}
+.progress__indicator--wrapper .progress__indicator span {
+  display: block;
+  height: 100%;
+  background-color: #000046;
+}
+
+.plus {
+  color: #FFFFFF;
+}
+
+.projectMainInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.projectMainInfo__item:nth-child(2) .title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.projectMainInfo__item:nth-child(2) .details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem 3.5rem;
+  width: 25rem;
+}
+.projectMainInfo__item:nth-child(2) .details__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.1rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  color: #FFFFFF;
+}
+.projectMainInfo__item:nth-child(3) {
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-areas: "one two" "three three";
+  justify-items: center;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+  row-gap: 4rem;
+}
+.projectMainInfo__item:nth-child(3) .token__info:first-child {
+  grid-area: one;
+}
+.projectMainInfo__item:nth-child(3) .token__info:nth-child(2) {
+  grid-area: two;
+}
+.projectMainInfo__item:nth-child(3) .token__info:last-child {
+  grid-area: three;
+}
+.projectMainInfo__item:nth-child(3) .token__info {
+  display: grid;
+  gap: 2rem;
+}
+.projectMainInfo__item:nth-child(3) .token__info .item:first-child {
+  background: linear-gradient(135deg, #0819B8, #2637DC, #0819B8);
+  border: solid 0.2rem #0819B8;
+  border-radius: 0.2rem;
+  padding: 0.75rem 1.8rem;
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
+.projectMainInfo__item:nth-child(3) .token__info .item:first-child .name {
+  font-size: 1.4rem;
+  padding: 0.2em 0;
+  color: #FFFFFF;
+}
+.projectMainInfo__item:nth-child(3) .token__info .item:first-child .value {
+  font-size: 1.9rem;
+  padding: 0.2em 0;
+  color: #FFDE00;
+}
+.projectMainInfo__item:nth-child(3) .token__info .item:last-child {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 1.9rem;
+}
+.projectMainInfo__item:nth-child(3) .token__info .item:last-child span {
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+.projectMainInfo__item:last-child {
+  max-width: 25rem;
+  position: relative;
+}
+.projectMainInfo__item:last-child img:last-child {
+  position: absolute;
+  bottom: 0;
+  left: 10rem;
+}
+
 .home .featured__pool {
   background-color: #00008C;
   padding: 5rem 0;
@@ -785,6 +1149,152 @@ body {
   font-family: "Brandon-Grotesque";
   font-weight: normal;
   font-style: normal;
+}
+
+.connect__wallet--link {
+  color: #FFDE00;
+  font-size: 2rem;
+  padding: 0.35em 0.75em;
+  border: solid 0.1rem #FFDE00;
+  border-radius: 0.5rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+.connect__wallet--link:hover {
+  background-color: #FFDE00;
+  color: #00008C;
+}
+
+.form__link {
+  color: #000000;
+  border: none;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.7rem;
+  background-color: #FFDE00;
+  display: inline-block;
+  padding: 0.75rem 4rem;
+  border-radius: 0.4rem;
+}
+.form__link:hover {
+  background-color: #CDB410;
+}
+
+.progress__indicator--wrapper {
+  padding-bottom: 5rem;
+}
+.progress__indicator--wrapper small {
+  font-size: 1.3rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  color: #FFDE00;
+}
+.progress__indicator--wrapper .progress__indicator {
+  border: solid 0.025rem #3842C1;
+  max-width: 25rem;
+  height: 1rem;
+  background-color: #FFFFFF;
+  margin: 0.5rem 0;
+}
+.progress__indicator--wrapper .progress__indicator span {
+  display: block;
+  height: 100%;
+  background-color: #000046;
+}
+
+.plus {
+  color: #FFFFFF;
+}
+
+.project__top {
+  background-color: #00008C;
+  padding: 5rem 0;
+}
+.project__top .container {
+  margin-bottom: 5rem;
+  padding: 3.6rem 0;
+}
+.project__down {
+  padding: 5rem 0;
+}
+.project__down article:nth-child(2) .project__description .title {
+  font-size: 2.4rem;
+  margin-bottom: 0.9rem;
+  text-transform: uppercase;
+}
+.project__down article:nth-child(2) .project__description .paragraph {
+  font-size: 1.8rem;
+  color: rgba(255, 255, 255, 0.7803921569);
+}
+.project__down article:nth-child(2) .project__description .connect__wallet--link {
+  display: inline-block;
+  margin: 2.4rem 0;
+  font-size: 1.6rem;
+}
+.project__down article:nth-child(2) .alert {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.85rem;
+  border: solid 0.2rem #00008C;
+  border-radius: 0.2rem;
+  padding: 2.5rem;
+  background: linear-gradient(135deg, #00008C, #00008C, #101FB1, #00008C, #00008C);
+}
+.project__down article:nth-child(2) .alert__image {
+  display: block;
+}
+.project__down article:nth-child(2) .alert__text .title {
+  font-size: 1.4rem;
+}
+.project__down article:nth-child(2) .alert__text .paragraph {
+  color: rgba(255, 255, 255, 0.7176470588);
+  font-size: 1.4rem;
+}
+
+body {
+  background-color: #0616B6;
+}
+
+.container {
+  width: 95%;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.title {
+  font-size: 2.75rem;
+  color: #FFFFFF;
+  font-family: "Brandon-Grotesque";
+  font-weight: black;
+  font-style: normal;
+}
+
+.paragraph {
+  color: #FFDE00;
+  font-size: 2rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+
+.connect__wallet--link {
+  color: #FFDE00;
+  font-size: 2rem;
+  padding: 0.35em 0.75em;
+  border: solid 0.1rem #FFDE00;
+  border-radius: 0.5rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+.connect__wallet--link:hover {
+  background-color: #FFDE00;
+  color: #00008C;
 }
 
 .form__link {
@@ -943,6 +1453,21 @@ body {
   font-family: "Brandon-Grotesque";
   font-weight: normal;
   font-style: normal;
+}
+
+.connect__wallet--link {
+  color: #FFDE00;
+  font-size: 2rem;
+  padding: 0.35em 0.75em;
+  border: solid 0.1rem #FFDE00;
+  border-radius: 0.5rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+.connect__wallet--link:hover {
+  background-color: #FFDE00;
+  color: #00008C;
 }
 
 .form__link {
@@ -1302,6 +1827,21 @@ body {
   font-style: normal;
 }
 
+.connect__wallet--link {
+  color: #FFDE00;
+  font-size: 2rem;
+  padding: 0.35em 0.75em;
+  border: solid 0.1rem #FFDE00;
+  border-radius: 0.5rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+.connect__wallet--link:hover {
+  background-color: #FFDE00;
+  color: #00008C;
+}
+
 .form__link {
   color: #000000;
   border: none;
@@ -1446,6 +1986,21 @@ body {
   font-family: "Brandon-Grotesque";
   font-weight: normal;
   font-style: normal;
+}
+
+.connect__wallet--link {
+  color: #FFDE00;
+  font-size: 2rem;
+  padding: 0.35em 0.75em;
+  border: solid 0.1rem #FFDE00;
+  border-radius: 0.5rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+.connect__wallet--link:hover {
+  background-color: #FFDE00;
+  color: #00008C;
 }
 
 .form__link {
@@ -1596,5 +2151,140 @@ body {
   }
   .launchProjectSecond__bottom .container .item {
     width: 50%;
+  }
+}
+body {
+  background-color: #0616B6;
+}
+
+.container {
+  width: 95%;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.title {
+  font-size: 2.75rem;
+  color: #FFFFFF;
+  font-family: "Brandon-Grotesque";
+  font-weight: black;
+  font-style: normal;
+}
+
+.paragraph {
+  color: #FFDE00;
+  font-size: 2rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+
+.connect__wallet--link {
+  color: #FFDE00;
+  font-size: 2rem;
+  padding: 0.35em 0.75em;
+  border: solid 0.1rem #FFDE00;
+  border-radius: 0.5rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+}
+.connect__wallet--link:hover {
+  background-color: #FFDE00;
+  color: #00008C;
+}
+
+.form__link {
+  color: #000000;
+  border: none;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.7rem;
+  background-color: #FFDE00;
+  display: inline-block;
+  padding: 0.75rem 4rem;
+  border-radius: 0.4rem;
+}
+.form__link:hover {
+  background-color: #CDB410;
+}
+
+.progress__indicator--wrapper {
+  padding-bottom: 5rem;
+}
+.progress__indicator--wrapper small {
+  font-size: 1.3rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
+  color: #FFDE00;
+}
+.progress__indicator--wrapper .progress__indicator {
+  border: solid 0.025rem #3842C1;
+  max-width: 25rem;
+  height: 1rem;
+  background-color: #FFFFFF;
+  margin: 0.5rem 0;
+}
+.progress__indicator--wrapper .progress__indicator span {
+  display: block;
+  height: 100%;
+  background-color: #000046;
+}
+
+.plus {
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 650px) {
+  .project__top .container .projectMainInfo__item:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0;
+  }
+  .project__top .container .projectMainInfo__item:nth-child(2) .details {
+    padding-left: 2.5rem;
+  }
+}
+@media screen and (min-width: 651px) {
+  .project__top .container .projectMainInfo__item:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0;
+  }
+  .project__top .container .projectMainInfo__item:nth-child(2) .details {
+    padding-left: 2.5rem;
+  }
+  .project__top .container .projectMainInfo__item:nth-child(3) {
+    grid-template-areas: "one two three";
+  }
+}
+@media screen and (min-width: 1080px) {
+  .project__down {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0;
+  }
+  .project__down .project__tokenomics {
+    width: 37.5%;
+  }
+  .project__down article:last-child {
+    width: 57.5%;
+  }
+}
+@media screen and (min-width: 1250px) {
+  .project__top .container .projectMainInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,69 @@
+@import 'variables';
+@import 'basis';
+
+@include media-sm {
+    .project{
+        &__top{
+            .container{
+                .projectMainInfo{
+                    &__item:nth-child(2){
+                        @include flexBox(column, flex-start, center);
+                        .details{
+                            padding-left: 2.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@include media-md {
+    .project{
+        &__top{
+            .container{
+                .projectMainInfo{
+                    &__item:nth-child(2){
+                        @include flexBox(column, flex-start, center);
+                        .details{
+                            padding-left: 2.5rem;
+                        }
+                    }
+
+                    &__item:nth-child(3){
+                        grid-template-areas: 
+                            "one two three"
+                        ;
+                    }
+                }
+            }
+        }
+    }
+}
+@include media-lg {
+    .project{
+        &__down{
+            @include flexBox(row, space-between);
+
+            .project__tokenomics{
+                width: 37.5%;
+            }
+
+            article:last-child{
+                width: 57.5%;
+            }
+        }
+    }
+}
+@include media-mlg {
+    .project{
+        &__top{
+            .container{
+                .projectMainInfo{
+                    @include flexBox(row, space-between, center);
+                }
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,39 @@
+@import '../../sass/variables';
+@import '../../sass/basis';
+
+.tokenomics{
+    border: solid 2px $borderVeryDeepBlue;
+    border-radius: .25rem;
+    .heading{
+        background: linear-gradient(135deg,#0819B8, #2637DC, #0819B8);
+        padding: 1.4rem 3.8rem;
+        .title{
+            font-size: 1.8rem;
+            font-weight: normal;
+            text-transform: uppercase;
+        }
+    }
+
+    .content{
+        &__item{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 4rem;
+            padding: 1.5rem 3.8rem;
+            background-color: $primaryDeepBlue;
+            border-bottom: solid 1px $primaryBlue;
+
+            .name,.value{
+                font-size: 1.4rem;
+                color: #FFFFFF;
+                font-family: 'Brandon-Grotesque';
+                font-weight: normal;
+                font-style: normal;
+            }
+        }
+
+        &__item:last-child{
+            border: none;
+        }
+    }
+}
