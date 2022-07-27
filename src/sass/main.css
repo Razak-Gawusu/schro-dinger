@@ -1045,7 +1045,6 @@ body {
   color: #FFDE00;
 }
 .projectMainInfo__item:nth-child(3) .token__info .item:last-child {
-  text-align: center;
   color: #FFFFFF;
   font-size: 1.9rem;
 }
