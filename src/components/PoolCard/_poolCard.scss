@@ -2,15 +2,16 @@
 @import '../../sass//basis';
 
 .poolCard{
-    width: 30rem;
+    width: 32rem;
     padding: 2.4rem;
     background-color: $primaryDeepBlue;
     font-family: 'Brandon-Grotesque';
     font-weight: normal;
     font-style: normal;
+    border: solid .1rem $primaryBlue;
+    border-radius: .4rem;
 
     &__item{
-        
         .profile{
             width: 4.8rem;
             height: 4.8rem;

@@ -451,12 +451,14 @@ body {
 }
 
 .poolCard {
-  width: 30rem;
+  width: 32rem;
   padding: 2.4rem;
   background-color: #00008C;
   font-family: "Brandon-Grotesque";
   font-weight: normal;
   font-style: normal;
+  border: solid 0.1rem #0616B6;
+  border-radius: 0.4rem;
 }
 .poolCard__item .profile {
   width: 4.8rem;
@@ -1100,7 +1102,6 @@ body {
 .home .upcomingPools__item {
   display: grid;
   gap: 3rem;
-  justify-items: center;
 }
 .home .projects {
   font-family: "Brandon-Grotesque";
@@ -1707,7 +1708,7 @@ body {
     padding: 1rem 0;
   }
   .poolCard {
-    width: 100%;
+    width: 100% !important;
   }
   #footer .container {
     display: flex;
