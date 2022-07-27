@@ -12,9 +12,26 @@
                         &__item{
                             padding: 3.5rem 0;
                             .sale__info{
+                                display: grid;
+                                grid-auto-columns: 1fr;
+                                grid-template-areas: 
+                                    "one two"
+                                    "three three"
+                                ;
+                                justify-items: center;
+
+                                &--item:first-child{
+                                    grid-area: one;
+                                }
+                                &--item:nth-child(2){
+                                    grid-area: two;
+                                }
+                                &--item:last-child{
+                                    grid-area: three;
+                                }
                                 &--item{
                                     @include flexBox(column, center, center);
-                                    padding: 1rem 0
+                                    padding: .5rem 0
                                 }
                             }
                         }
