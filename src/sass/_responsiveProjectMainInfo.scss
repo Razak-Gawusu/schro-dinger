@@ -6,15 +6,13 @@
         &__top{
             .container{
                 .projectMainInfo{
-                    &__item:nth-child(2){
-                        @include flexBox(column, flex-start, center);
+                    &__item:first-child{
+                        text-align: center;
+                        @include flexBox(column, center, center, 3.4rem);
                         .details{
                             padding-left: 2.5rem;
                         }
-                    }
-
-                    &__item:last-child{
-                        display: none;
+                        margin-bottom: 5rem;
                     }
                 }
             }
@@ -31,21 +29,20 @@
         &__top{
             .container{
                 .projectMainInfo{
-                    &__item:nth-child(2){
-                        @include flexBox(column, flex-start, center);
+                    &__item:first-child{
+                        text-align: center;
+                        @include flexBox(row, center, center, 2.4rem);
                         .details{
                             padding-left: 2.5rem;
                         }
+                        margin-bottom: 5rem;
                     }
 
-                    &__item:nth-child(3){
+                    &__item:nth-child(2){
                         grid-template-areas: 
                             "one two three"
                         ;
-                    }
-
-                    &__item:last-child{
-                        display: none;
+                        justify-content: center;
                     }
                 }
             }
@@ -64,11 +61,15 @@
             .container{
                 .projectMainInfo{
                     @include flexBox(row, space-between, center);
+
+                    &__item:first-child{
+                        margin-bottom: 0;
+                    }
                 }
             }
         }
         &__down{
-            @include flexBox(row, space-between);
+            @include flexBox(row, space-between, center);
 
             .project__tokenomics{
                 width: 37.5%;
@@ -88,7 +89,6 @@
                     &__item:last-child{
                         display: block;
                     }
-                    @include flexBox(row, space-between, center);
                 }
             }
         }

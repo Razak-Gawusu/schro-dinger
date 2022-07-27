@@ -969,38 +969,32 @@ body {
 }
 
 .projectMainInfo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 4rem;
+  font-family: "Brandon-Grotesque";
+  font-weight: normal;
+  font-style: normal;
 }
-.projectMainInfo__item:nth-child(2) .title {
+.projectMainInfo__item:first-child .info .title {
   font-size: 3rem;
   margin-bottom: 2rem;
 }
-.projectMainInfo__item:nth-child(2) .details {
+.projectMainInfo__item:first-child .info .details {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem 3.5rem;
   width: 25rem;
 }
-.projectMainInfo__item:nth-child(2) .details__info {
+.projectMainInfo__item:first-child .info .details__info {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   gap: 1rem;
   font-size: 1.1rem;
-  font-family: "Brandon-Grotesque";
-  font-weight: normal;
-  font-style: normal;
   color: #FFFFFF;
 }
-.projectMainInfo__item:nth-child(3) {
-  font-family: "Brandon-Grotesque";
-  font-weight: normal;
-  font-style: normal;
+.projectMainInfo__item:nth-child(2) {
+  max-width: 60rem;
+  margin: 0 auto;
   display: grid;
   grid-auto-columns: 1fr;
   grid-template-areas: "one two" "three three";
@@ -1009,50 +1003,51 @@ body {
        column-gap: 2rem;
   row-gap: 4rem;
 }
-.projectMainInfo__item:nth-child(3) .token__info:first-child {
+.projectMainInfo__item:nth-child(2) .token__info:first-child {
   grid-area: one;
 }
-.projectMainInfo__item:nth-child(3) .token__info:nth-child(2) {
+.projectMainInfo__item:nth-child(2) .token__info:nth-child(2) {
   grid-area: two;
 }
-.projectMainInfo__item:nth-child(3) .token__info:last-child {
+.projectMainInfo__item:nth-child(2) .token__info:last-child {
   grid-area: three;
 }
-.projectMainInfo__item:nth-child(3) .token__info {
+.projectMainInfo__item:nth-child(2) .token__info {
   display: grid;
   gap: 2rem;
 }
-.projectMainInfo__item:nth-child(3) .token__info .item:first-child {
+.projectMainInfo__item:nth-child(2) .token__info .item:first-child {
   background: linear-gradient(135deg, #0819B8, #2637DC, #0819B8);
   border: solid 0.2rem #0819B8;
   border-radius: 0.2rem;
   padding: 0.5rem 1.8rem;
-  width: 16.5rem;
+  width: 16.2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 0;
 }
-.projectMainInfo__item:nth-child(3) .token__info .item:first-child .name {
+.projectMainInfo__item:nth-child(2) .token__info .item:first-child .name {
   font-size: 1.4rem;
   padding: 0.2em 0;
   color: #FFFFFF;
 }
-.projectMainInfo__item:nth-child(3) .token__info .item:first-child .value {
+.projectMainInfo__item:nth-child(2) .token__info .item:first-child .value {
   font-size: 1.9rem;
   padding: 0.2em 0;
   color: #FFDE00;
 }
-.projectMainInfo__item:nth-child(3) .token__info .item:last-child {
+.projectMainInfo__item:nth-child(2) .token__info .item:last-child {
   color: #FFFFFF;
   font-size: 1.9rem;
 }
-.projectMainInfo__item:nth-child(3) .token__info .item:last-child span {
+.projectMainInfo__item:nth-child(2) .token__info .item:last-child span {
   font-size: 1.4rem;
   font-weight: normal;
 }
 .projectMainInfo__item:last-child {
+  display: none;
   max-width: 25rem;
   position: relative;
 }
@@ -1251,11 +1246,9 @@ body {
 
 .project__top {
   background-color: #00008C;
-  padding: 5rem 0;
 }
 .project__top .container {
-  margin-bottom: 5rem;
-  padding: 3.6rem 0;
+  padding: 4rem 0;
 }
 .project__down {
   padding: 5rem 0;
@@ -1827,7 +1820,7 @@ body {
     justify-items: center;
   }
 }
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1120px) {
   .home .featured__pool .container {
     display: flex;
     flex-direction: row;
@@ -2022,7 +2015,7 @@ body {
     float: right;
   }
 }
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1120px) {
   .launchProject__item--form {
     padding: 5rem;
   }
@@ -2182,7 +2175,7 @@ body {
          column-gap: 4rem;
   }
 }
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1120px) {
   .launchProjectSecond__top .container {
     display: flex;
     flex-direction: row;
@@ -2312,45 +2305,44 @@ body {
 }
 
 @media screen and (max-width: 650px) {
-  .project__top .container .projectMainInfo__item:nth-child(2) {
+  .project__top .container .projectMainInfo__item:first-child {
+    text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    gap: 0;
+    gap: 3.4rem;
+    margin-bottom: 5rem;
   }
-  .project__top .container .projectMainInfo__item:nth-child(2) .details {
+  .project__top .container .projectMainInfo__item:first-child .details {
     padding-left: 2.5rem;
-  }
-  .project__top .container .projectMainInfo__item:last-child {
-    display: none;
   }
   .project__down .project__tokenomics {
     margin-bottom: 5rem;
   }
 }
 @media screen and (min-width: 651px) {
-  .project__top .container .projectMainInfo__item:nth-child(2) {
+  .project__top .container .projectMainInfo__item:first-child {
+    text-align: center;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    gap: 0;
+    gap: 2.4rem;
+    margin-bottom: 5rem;
   }
-  .project__top .container .projectMainInfo__item:nth-child(2) .details {
+  .project__top .container .projectMainInfo__item:first-child .details {
     padding-left: 2.5rem;
   }
-  .project__top .container .projectMainInfo__item:nth-child(3) {
+  .project__top .container .projectMainInfo__item:nth-child(2) {
     grid-template-areas: "one two three";
-  }
-  .project__top .container .projectMainInfo__item:last-child {
-    display: none;
+    justify-content: center;
   }
   .project__down .project__tokenomics {
     margin-bottom: 5rem;
   }
 }
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1120px) {
   .project__top .container .projectMainInfo {
     display: flex;
     flex-direction: row;
@@ -2358,11 +2350,14 @@ body {
     align-items: center;
     gap: 0;
   }
+  .project__top .container .projectMainInfo__item:first-child {
+    margin-bottom: 0;
+  }
   .project__down {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     gap: 0;
   }
   .project__down .project__tokenomics {
@@ -2372,14 +2367,7 @@ body {
     width: 57.5%;
   }
 }
-@media screen and (min-width: 1250px) {
-  .project__top .container .projectMainInfo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 0;
-  }
+@media screen and (min-width: 1340px) {
   .project__top .container .projectMainInfo__item:last-child {
     display: block;
   }

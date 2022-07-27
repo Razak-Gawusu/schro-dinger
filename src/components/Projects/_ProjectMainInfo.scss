@@ -2,33 +2,34 @@
 @import '../../sass/basis';
 
 .projectMainInfo{
-    @include flexBox(column, center, center, 4rem);
-    &__item:nth-child(2){
-        .title{
-            font-size: 3rem;
-            margin-bottom: 2rem;
-        }
+    font-family: 'Brandon-Grotesque';
+    font-weight: normal;
+    font-style: normal;
 
-        .details{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 2rem 3.5rem;
-            width: 25rem;
-            &__info{
-                @include flexBox(row, flex-start, center, 1rem);
-                font-size: 1.1rem;
-                font-family: 'Brandon-Grotesque';
-                font-weight: normal;
-                font-style: normal;
-                color: #FFFFFF;
+    &__item:first-child{
+        .info{
+            .title{
+                font-size: 3rem;
+                margin-bottom: 2rem;
             }
-        }
+
+            .details{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2rem 3.5rem;
+                width: 25rem;
+                &__info{
+                    @include flexBox(row, flex-start, center, 1rem);
+                    font-size: 1.1rem;
+                    color: #FFFFFF;
+                }
+            }
+        }   
     }
 
-    &__item:nth-child(3){
-        font-family: 'Brandon-Grotesque';
-        font-weight: normal;
-        font-style: normal;
+    &__item:nth-child(2){
+        max-width: 60rem;
+        margin: 0 auto;
         display: grid;
         grid-auto-columns: 1fr;
         grid-template-areas: 
@@ -48,6 +49,7 @@
         .token__info:last-child{
             grid-area: three;
         }
+
         .token__info{
             display: grid;
             gap: 2rem;
@@ -56,7 +58,7 @@
                 border: solid .2rem $primaryBlueAlt;
                 border-radius: .2rem;
                 padding: .5rem 1.8rem;
-                width: 16.5rem;
+                width: 16.2rem;
                 @include flexBox(column, center, flex-start);
                 .name{
                     font-size: 1.4rem;
@@ -72,7 +74,6 @@
             }
 
             .item:last-child{
-                //text-align: center;
                 color: #FFFFFF;
                 font-size: 1.9rem;
 
@@ -85,6 +86,7 @@
     }
 
     &__item:last-child{
+        display: none;
         max-width: 25rem;
         position: relative;
         img:last-child{
