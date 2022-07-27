@@ -2249,6 +2249,9 @@ body {
   .project__top .container .projectMainInfo__item:nth-child(2) .details {
     padding-left: 2.5rem;
   }
+  .project__down .project__tokenomics {
+    margin-bottom: 5rem;
+  }
 }
 @media screen and (min-width: 651px) {
   .project__top .container .projectMainInfo__item:nth-child(2) {
@@ -2263,6 +2266,9 @@ body {
   }
   .project__top .container .projectMainInfo__item:nth-child(3) {
     grid-template-areas: "one two three";
+  }
+  .project__down .project__tokenomics {
+    margin-bottom: 5rem;
   }
 }
 @media screen and (min-width: 1080px) {
