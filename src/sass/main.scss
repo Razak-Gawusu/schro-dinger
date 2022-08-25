@@ -1,32 +1,29 @@
-@import 'variables';
-@import 'resets';
-@import 'basis';
-@import 'config';
+@import "variables";
+@import "resets";
+@import "basis";
+@import "config";
 
 // component styles
-@import '../components/Header/header';
-@import '../components/Footer/footer';
-@import '../components/PoolCard/poolCard';
-@import '../components/ProjectInfo/projectInfo';
-@import '../components/SearchForm/searchForm';
-@import '../components/Projects/tokenomics';
-@import '../components/Projects/ProjectMainInfo';
+@import "../components/Header/header";
+@import "../components/Footer/footer";
+@import "../components/PoolCard/poolCard";
+@import "../components/ProjectInfo/projectInfo";
+@import "../components/SearchForm/searchForm";
+@import "../components/PreSalePage/tokenomics";
+@import "../components/PreSalePage/ProjectMainInfo";
 
 // page styles
-@import '../pages/MainLaunchPad/launchPad';
-@import '../pages/PreSale/presale';
-@import '../pages/LaunchForm/stepperForm';
-@import '../pages/LaunchForm/editPageForm';
+@import "../pages/MainLaunchPad/launchPad";
+@import "../pages/PreSale/presale";
+@import "../pages/LaunchForm/stepperForm";
+@import "../pages/LaunchForm/editPageForm";
 
 // responsive styles
-@import 'responsive';
-@import 'responsiveLaunchProject';
-@import '_responsiveLaunchProjectSecond';
-@import 'responsiveProjectMainInfo';
+@import "responsive";
+@import "responsiveLaunchProject";
+@import "_responsiveLaunchProjectSecond";
+@import "responsiveProjectMainInfo";
 
 // imported fonts
-@import '../fonts/ProximaSoft/stylesheet.css';
-@import '../fonts/Brandon-Grotesque/stylesheet.css';
-
-
-
+@import "../fonts/ProximaSoft/stylesheet.css";
+@import "../fonts/Brandon-Grotesque/stylesheet.css";

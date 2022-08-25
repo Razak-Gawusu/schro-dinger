@@ -24,8 +24,8 @@
 @import '../fonts/Brandon-Grotesque/stylesheet.css';
 @import '../fonts/ProximaSoft/stylesheet.css';
 @import '../fonts/Brandon-Grotesque/stylesheet.css';
-@import '../fonts/ProximaSoft/stylesheet.css';
-@import '../fonts/Brandon-Grotesque/stylesheet.css';
+@import "../fonts/ProximaSoft/stylesheet.css";
+@import "../fonts/Brandon-Grotesque/stylesheet.css";
 *, *::before, *::after {
   box-sizing: border-box;
 }
