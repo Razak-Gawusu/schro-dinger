@@ -3,6 +3,7 @@
 @import 'basis';
 @import 'config';
 
+// component styles
 @import '../components/Header/header';
 @import '../components/Footer/footer';
 @import '../components/PoolCard/poolCard';
@@ -11,17 +12,19 @@
 @import '../components/Projects/tokenomics';
 @import '../components/Projects/ProjectMainInfo';
 
+// page styles
+@import '../pages/MainLaunchPad/launchPad';
+@import '../pages/PreSale/presale';
+@import '../pages/LaunchForm/stepperForm';
+@import '../pages/LaunchForm/editPageForm';
 
-@import '../pages/Home/home';
-@import '../pages/Project/project';
-@import '../pages/LaunchProject/launchProject';
-@import '../pages/LaunchProject/launchProjectSecond';
-
+// responsive styles
 @import 'responsive';
 @import 'responsiveLaunchProject';
 @import '_responsiveLaunchProjectSecond';
 @import 'responsiveProjectMainInfo';
 
+// imported fonts
 @import '../fonts/ProximaSoft/stylesheet.css';
 @import '../fonts/Brandon-Grotesque/stylesheet.css';
 

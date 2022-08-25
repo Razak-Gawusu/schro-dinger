@@ -58,6 +58,7 @@ function ProjectMainInfo() {
             </div>
             <div className='item'>Start Time: <span>2021-11-05</span></div>
           </div>
+
         </div>
         <div className="projectMainInfo__item">
           <img src={require('../../images/Modern-1.png')} alt="rocket1" />

@@ -1,7 +1,7 @@
 import React from 'react'
 import alert from '../../images/exclamation-triangle.svg'
-import ProjectMainInfo from '../../components/Projects/ProjectMainInfo'
-import Tokenomics from '../../components/Projects/Tokenomics'
+import ProjectMainInfo from '../../components/PreSalePage/ProjectMainInfo'
+import Tokenomics from '../../components/PreSalePage/Tokenomics'
 
 function Project() {
   return (

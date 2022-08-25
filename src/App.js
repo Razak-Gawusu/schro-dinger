@@ -2,10 +2,10 @@ import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import './sass/main.css'
 import SharedLayout from './components/SharedLayout'
-import Home from './pages/Home/Home';
-import LaunchProject from './pages/LaunchProject/LaunchProject';
-import LaunchProjectSecond from './pages/LaunchProject/LaunchProjectSecond';
-import Project from './pages/Project/Project';
+import Home from './pages/MainLaunchPad/LaunchPad';
+import LaunchProject from './pages/LaunchForm/StepperForm';
+import LaunchProjectSecond from './pages/LaunchForm/EditPageForm';
+import Project from './pages/PreSale/PreSaleAfterLaunch';
 
 function App() {
   return (
