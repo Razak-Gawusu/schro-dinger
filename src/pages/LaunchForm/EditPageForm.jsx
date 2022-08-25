@@ -27,7 +27,7 @@ function LaunchProjectSecond() {
 
                     <form>
                         <div className="form--group">
-                            <label for="inputTag">
+                            <label htmlFor="inputTag">
                                 <FaPlus className='plus' />
                                 <input id="inputTag" type="file"/>
                             </label>                        
